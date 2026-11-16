@@ -1,0 +1,16 @@
+div#Autorisation p {
+    text-align: justify;
+    margin: 0;
+}
+div#Autorisation button.btn-add-membre {
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    font-size: 14px;
+    background: #353535;
+    color: #f9f9f9;
+}
+
+div#Autorisation {
+    margin: 50px 0;
+}

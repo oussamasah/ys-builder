@@ -1,0 +1,147 @@
+#listclient table.table.table-borderless.tablesite th.Actions {
+    background: #F9F9F9;
+    border-radius: 0;
+}
+
+.create {
+    background: #F6C344 0% 0% no-repeat padding-box;
+    color: #fff;
+    border: #F6C344;
+}
+
+
+.fade.modalCreer.modal.show .modal-content {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000029!important;
+    border-radius: 5px;
+    border: none;
+}
+.modalCreer .titre_popup_add_page {
+    margin-left: 15px;
+}
+.modalCreer .modal_header_add_page i {
+    position: absolute;
+    right: 9px;
+    top: 19px;
+    color: #353535;
+    cursor: pointer;
+}
+#listesites {
+    overflow: scroll;
+    height: 90px;
+ 
+}
+#listesites .listesdomaine{
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+}
+.modalCreer div#addPageModal .modal-body {
+    background: transparent;
+    padding: 17px;
+}
+.fade.modalCreer.modal.show .modal-body {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #353535;
+}
+.modalCreer button.btn.btn-rounded.btn-outline-secondary {
+    text-align: center;
+    font: normal normal bold 13px/16px Montserrat;
+    letter-spacing: 0px;
+    border-radius: 50px;
+}
+.modalCreer .modal_header_add_page {
+    background: transparent;
+    font: normal normal 600 21px/30px Montserrat;
+    letter-spacing: 0px;
+    color: #353535;
+    text-align: justify;
+}
+.modalCreer button.btn-outline-secondary:hover {
+    background-color: #F6C344;
+    color: #ffffff;
+    border-color: #6c757d;
+}
+.fade.modalCreer.modal.show .modal-header {
+    border: none;
+    background: #f9f9f9;
+    padding: 0;
+}
+.modalCreer .titre_popup_page {
+    background: #F9F9F9;
+    padding: 13px;
+    border-radius: 11px 11px 0px 0px;
+}
+.modalCreer .modal_header_add_page i {
+    position: absolute;
+    right: 9px;
+    top: 19px;
+    color: #353535;
+    cursor: pointer;
+}
+
+.iconNom {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #828894;
+    background-color: #e0e4e6;
+    text-transform: uppercase;
+}
+#listclient table.tablesite tbody tr:nth-child(even) {
+    background: #fff;
+}
+#listclient .client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#listclient  span.clients {
+
+    text-align: justify;
+}
+#listclient  .btn-group.dropstart {
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+    margin: 7px auto;
+}
+#listclient .etatclient.demo {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 85px;
+    font-size: 14px;
+    background-color: #f1e8fa;
+    color: #6c259b;
+    border: solid 1px #b186e5;
+}
+#listclient .etatclient.inactif {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 85px;
+    font-size: 14px;
+    background-color: #f1f1f5;
+    color: #878791;
+    border: solid 1px #92929d;
+}
+#listclient .eteClient {
+    display: table;
+    opacity: 1;
+    border-radius: 50px;
+    width: 84px;
+    padding: 26px;
+    text-align: center;
+    margin: 11px auto;
+    color: #fff;
+}
+#listclient  table.table.table-borderless.tablesite button {
+    border: none;
+    background: transparent;
+    margin: 8px auto;
+}

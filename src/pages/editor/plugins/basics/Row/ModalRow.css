@@ -1,0 +1,550 @@
+#ModalRow .drop-zone {
+  width: 100%;
+  height: 92px;
+  margin-bottom: 15px;
+  background: white;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: gray;
+}
+#ModalRow  .ck-editor__editable_inline:not(.ck-comment__input *) {
+  height: 200px;
+  overflow-y: auto;
+}
+#ModalRow .grids {
+  font-size: 30px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 7px;
+ 
+}
+
+#ModalRow .details {
+  max-height: 400px;
+  overflow: scroll;
+}
+#ModalRow .scrollspy-example .scrolly {
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#ModalRow button.accordion-button{
+  padding: 15px
+}
+#ModalRow .accordion-body.alignementtext .orientation {
+  display: none!important;
+}
+#ModalRow .scrollspy-example {
+  height: auto;
+  overflow-y: visible;
+}
+#ModalRow .radius-input {
+  text-align: center;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  width: 40px;
+
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0px 2px;
+  max-width: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #71717175;
+  opacity: 1;
+}
+#ModalRow .nestable {
+  position: relative;
+  overflow: scroll;
+  height: 200px;
+}
+#ModalRow .rangeInput {
+  background: linear-gradient(
+    to right,
+    #707070 0%,
+    #707070 40%,
+    #fff 40%,
+    #fff 100%
+  );
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#ModalRow input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#ModalRow .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#ModalRow span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ModalRow .input-with-label-pixel {
+  position: relative;
+}
+#ModalRow .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+}
+#ModalRow .nestable-item-name {
+  padding: 0px 17px 0 17px;
+  margin-top: 12px;
+  display: block;
+}
+#ModalRow .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+span.color-value {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 3px;
+}
+#ModalRow .gallery-item i.fa-trash-alt {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+  background: white;
+  display: none;
+}
+
+#ModalRow .gallery-item i.fa-check-circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #098201;
+  cursor: pointer;
+  background: white;
+}
+#ModalRow .gallery-item:hover i {
+  display: block;
+}
+#ModalRow .imgstype img {
+  width: 223px;
+  margin: 8px auto;
+  display: block;
+}
+#ModalRow input#inputId {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(219 219 219);
+  width: 100%;
+  margin: 10px 0px;
+}
+#ModalRow .dropdown-menu.show {
+  height: 324px;
+  overflow-y: scroll;
+}
+span.tag-wrapper.ReactTags__tag {
+  background: #353535;
+  color: white;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 4px 4px;
+  border-radius: 7px;
+}
+span.tag-wrapper.ReactTags__tag button {
+  background: none;
+  color: white;
+  border: none;
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: absolute;
+}
+div.ReactTags__suggestions ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+div.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+#madalsocial.input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+#madalsocial.form-control{
+  /* border: none; */
+  font-size: 12px;
+  color: #717171;
+}
+
+#madalsocial .input-with-label-pixel {
+  position: relative;
+}
+#madalsocial .Designe {
+  font-size: 20px;
+  font-weight: bold;
+}
+#madalsocial .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+  border: 1px solid #ced4da;
+}
+
+
+#ModalRow input.form-control.form-control-sm.input-small-pixel {
+  border: 1px solid #ced4da
+}
+#ModalRow  .input-with-label-pixel {
+  position: relative;
+}
+#ModalRow span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+
+#ModalRow div#selecteditem {
+  height: 150px;
+  overflow-y: scroll;
+}
+#ModalRow .firstdiv {
+  margin: 30px 0;
+  background: #fff;
+  padding: 10px;
+}
+#ModalRow .firstdivplus {
+  margin: 0px 0;
+  background: #fff;
+  padding: 10px;
+}
+
+div#selecteditem a.nav-link {
+  color: #2f373a;
+}
+div#selecteditem span.title-popups {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 12px;
+  background: #2f373a;
+  color: #eee;
+}
+div#ModalRow.modal-xs {
+  left: 16%;
+}
+div#ModalRow .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#ModalRow span.noticetext {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+}
+div#selecteditem  .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0 5px;
+}
+div#selecteditem .gallery-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ModalRow  .btn-group.dropend {
+  font-size: 29px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ModalRow input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+div#ModalRow .structmodals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+div#ModalRow {
+  width: 40%!important;
+  max-width: 40%!important;
+}
+div#ModalRow .structmodals .details {
+  width: 60%;
+}
+
+div#ModalRow .structmodals .itemdrag {
+  width: 40%;
+}
+#ModalRow .rangeInput {
+  background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#ModalRow input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#ModalRow .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+#ModalRow .nav-link.tt.active, #ModalRow .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+#ModalRow button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+#ModalRow div#nav-tab {
+  border: none;
+}
+ #ModalRow .nav-link.tt {
+color:#eee;
+}
+#ModalRow .nav-link.tt.active {
+  color: #f6c344;
+}
+#ModalRow .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#ModalRow  span.titre {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+#ModalRow .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border:1px solid #707070;
+  cursor: pointer;
+}
+#ModalRow  span.titredropdown{
+  display: block;
+  font-size: 15px;
+}
+#ModalRow  .list {
+  overflow: scroll;
+  height: 200px;
+}
+#ModalRow .selecterd.imgstype{
+  border: 1px solid #f6c344;
+  margin: 0 4px;
+}
+#ModalRow img.img.imgReseau {
+  width: 223px;
+  margin: 0 4px;
+}
+
+#ModalRow .disabled.grids {
+  color: #eee;
+  cursor: not-allowed;
+
+}
+div#ModalRow ul.listaide {
+  list-style: none;
+  padding: 0;
+}
+div#ModalRow ul.listaide li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px;
+}
+div#ModalRow span.liss {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #f6c344;
+  text-align: center;
+  border-radius: 50px;
+}
+div#ModalRow span.aide {
+  padding: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+#ModalRow .btnanimations button.btn.btn-light {
+  margin: 4px 2px;
+  font-size: 12px;
+  box-shadow: 1px 1px 0px 0px #ddd1d1;
+}
+#ModalRow .nav-pills .nav-link {
+  color: #2f373a;
+  padding: 5px;
+}
+#ModalRow .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+#ModalRow .accordion-button{
+  background: #f5f4f4;
+  margin: 5px;
+}
+#ModalRow span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+
+
+.contentOptions {
+  width: 313px;
+  box-sizing: border-box;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+}
+#ModalRow .itemlaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7eaec;
+  padding: 10px;
+  border-radius: 5px;
+}
+#ModalRow .itemlaction button {
+  border: none;
+  color: #000000;
+  background: transparent;
+}
+#ModalRow  .additem button {
+  border: none;
+  background: none;
+  padding: 15px;
+}
+#ModalRow .accordion-button:not(.collapsed) {
+  background: #f6c344;
+}
+#ModalRow input[type="radio"]:checked + label {
+  background-color: rgb(246 195 68) !important;
+  color: black !important;
+}
+#ModalRow img.modelPreview {
+  max-width: 150px;
+  margin: 12px auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px 0px;
+  border: 1px solid gray;
+}
+#ModalRow img.selectedModel {
+  width: 150px;
+  height: auto;
+}
+#ModalRow select.form-select {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0;
+}
+#ModalRow  .form-check.form-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ModalRow  .nestable.nestable-mczjvnefgzo {
+  overflow-y: scroll;
+  height: 200px;
+}
+ 

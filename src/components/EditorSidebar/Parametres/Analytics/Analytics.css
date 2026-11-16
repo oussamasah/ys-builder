@@ -1,0 +1,29 @@
+div#InfoAnalitycs button.btn.btn-rounded.send {
+  background: #F6C344;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #F6C344;
+  padding: 5px;
+}
+div#InfoAnalitycs button.btn.btn-rounded.reset {
+  background: transparent;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #cbc9c9;
+  border-color: #cbc9c9;
+  padding: 5px;
+}
+
+div#InfoAnalitycs span.test-aide {
+  text-align: justify;
+  font: normal normal 300 12px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 5% auto;
+}

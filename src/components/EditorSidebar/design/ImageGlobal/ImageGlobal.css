@@ -1,0 +1,237 @@
+#imgGlobal .preview {
+  min-width: 200px;
+  margin: 0 auto !important;
+  max-width: 200px;
+}
+#imgGlobal .dropend i.dropdown-toggle::after {
+  position: absolute;
+  display: inline-block;
+  margin-left: 0px;
+  left: 43px;
+  width: 14px;
+  height: 16px;
+  top: -14px;
+  vertical-align: middle;
+  content: "";
+  background: url("../../../../assets/imgBtnGlobal/arrow.svg") no-repeat;
+  cursor: pointer;
+  border: none;
+  background-size: 100% 100%;
+}
+#imgGlobal ul.dropdown-menu.preview-options li button {
+  padding: 5px !important;
+  width: 117px;
+  display: block;
+  margin: 0 auto !important;
+  border: 1px solid #b5b5b5;
+}
+#imgGlobal ul.dropdown-menu {
+  position: relative;
+  transform: translate(85px, -50px) !important;
+  border: none;
+  box-shadow: 0px 0px 5px 1px #80808029;
+}
+#imgGlobal ul.dropdown-menu::before {
+  content: "";
+  background: url("../../../../assets/imgTitles/arrow-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -21px;
+  top: 34px;
+  vertical-align: middle;
+  z-index: 111;
+}
+#imgGlobal .btn-group.dropend li {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#imgGlobal .imgpreview {
+  cursor: pointer;
+  border: none;
+}
+#imgGlobal .previewTitle {
+  text-align: left;
+  font: italic normal 400 12px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+}
+#imgGlobal .preview-block {
+  height: 200px;
+}
+#imgGlobal .btn_manager {
+  overflow-x: scroll;
+  height: 68%;
+}
+#imgGlobal .sketch-picker.active {
+  display: block;
+}
+#imgGlobal .colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+#imgGlobal span.color-value {
+  width: 22px;
+  height: 22px;
+  display: block;
+  margin: 3px;
+  border-radius: 2px;
+  border: 1px solid rgb(112 112 112 / 35%);
+}
+#imgGlobal .inputColor {
+  position: relative;
+}
+#imgGlobal .sketch-popeover {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+}
+#imgGlobal .sketch-cover {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+#imgGlobal .btntype {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imgGlobal .blockTitle {
+  font: normal normal normal 12px/15px Montserrat;
+}
+#imgGlobal .typeBorder input {
+  display: none;
+}
+#imgGlobal .RadioInput[type="radio"] + label {
+  cursor: pointer;
+  border-radius: 5px;
+}
+#imgGlobal .RadioInput[type="radio"]:checked + label {
+  box-shadow: none;
+  background: #b5b5b5;
+  color: white;
+}
+#imgGlobal .form-switch .form-check-input {
+  width: 2em;
+  margin-left: -1.5em;
+  background-image: url("../../../../assets/imgBorder/switchform.svg") !important;
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
+}
+#imgGlobal .form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #717171;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  cursor: pointer;
+  border: 1px solid #707070 !important;
+}
+#imgGlobal .form-check-input:checked {
+  background-color: #90e192;
+  border-color: #90e192;
+}
+#imgGlobal .form-check-input:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+#imgGlobal .borderSelect {
+  border-radius: 8px;
+
+  width: 145px;
+}
+#imgGlobal label.active {
+  box-shadow: none;
+  background: #b5b5b5;
+  color: white;
+}
+#imgGlobal .radius-input {
+  text-align: center;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  width: 40px;
+
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0px 2px;
+  max-width: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #71717175;
+  opacity: 1;
+}
+#imgGlobal .rangeInput {
+  background: linear-gradient(
+    to right,
+    #707070 0%,
+    #707070 40%,
+    #fff 40%,
+    #fff 100%
+  );
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#imgGlobal input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#imgGlobal .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#imgGlobal span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#imgGlobal .input-with-label-pixel {
+  position: relative;
+}
+#imgGlobal .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+}
+div#imgGlobal {
+  height: 750px;
+}

@@ -1,0 +1,88 @@
+#EditorRightSidebar {
+   position: absolute;
+   right: -400px;
+   z-index: 9;
+   height: 94.7vh;
+
+   background-color:#353535;
+   width: 350px;
+   top: 50px;
+   transition: all 0.5s ease-in;
+   -webkit-transition: all 0.5s ease-in;
+   -moz-transition:all 0.5s ease-in;
+   -o-transition: all 0.5s ease-in;
+   padding: 30px;
+}
+#EditorRightSidebar .gjs-category-title, #EditorRightSidebar .gjs-layer-title,#EditorRightSidebar .gjs-block-category .gjs-title,#EditorRightSidebar .gjs-sm-sector-title {
+    font-weight: lighter;
+    background-color: #353535;
+    letter-spacing: 1px;
+    padding: 10px 5px;
+    border-bottom: none!important;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 0px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+}
+#EditorRightSidebar.active {
+    right: 0px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition:all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+ 
+ }
+ #EditorRightSidebar  .close {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    background: #353535;
+    right: 1px;
+    width: 349px;
+    z-index: 11;
+}
+#EditorRightSidebar .manager {
+    position: relative;
+    margin-top: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 95%;
+}
+#EditorRightSidebar input[placeholder], #EditorRightSidebar [placeholder], #EditorRightSidebar *[placeholder] {
+    color: rgb(255 255 255);
+    font-size: 12px;
+}
+
+#EditorRightSidebar .titleSidebar {
+    color: #b5b5b5;
+    display: block;
+    font: normal normal 700 12px/15px Montserrat;
+    letter-spacing: 0;
+    opacity: 1;
+   
+}
+
+/* width */
+#EditorRightSidebar .manager::-webkit-scrollbar {
+    width: 5px;
+    display: block!important;
+  }
+  
+
+   
+  /* Handle */
+  #EditorRightSidebar .manager::-webkit-scrollbar-thumb {
+    background:  #2e2e2e;
+    border-radius: 11px;
+    display: block;
+
+  }
+  
+  

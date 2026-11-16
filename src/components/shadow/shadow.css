@@ -1,0 +1,43 @@
+#colorpickerOverlayShadow {
+    position: absolute;
+    top: 0;
+    height: 120vh;
+    width: 100%;
+    display: none;
+}
+#colorpickerOverlayShadow.active{
+
+    display: block;
+}
+.typeOmbre:active+.shadow-type, .typeOmbre:checked+.shadow-type, .shadow-type.active, .shadow-type:active, .show>.shadow-type.dropdown-toggle {
+    color: #fff;
+    background-color: #a8b0b6;
+    border-color: #51585e;
+}
+.directionBtn{
+    padding: 2px 5px;
+    margin: 1px;
+    background-color: #a8b0b6;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+.directionBtn.active{
+    padding: 2px 5px;
+    margin: 1px;
+    background-color: #272727;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+.shadowParametres{
+    display: none;
+}
+label.btn.shadow-type,label.btn.shadow-type:hover {
+    border: 1px solid #707070;
+}
+.shadowParametres.active{
+    display: block;
+}

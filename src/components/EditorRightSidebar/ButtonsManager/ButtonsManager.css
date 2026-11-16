@@ -1,0 +1,179 @@
+
+#btnManager div#offcanvasImg .offcanvas-body{
+    display: block;
+}
+#btnManager button.nav-link {
+    width: 50%;
+    padding: 8px;
+
+
+    font: normal normal normal  14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #B5B5B5;
+}
+div#btnManager {
+    width: 100%;
+}
+#btnManager button.nav-link.active {
+    font: normal normal normal  14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+}
+#btnManager .previewTitle{
+    text-align: left;
+font: italic normal 400 12px/13px Montserrat;
+
+letter-spacing: 0px;
+
+color: #717171;
+
+}
+#btnManager button#nav-text-tab {
+    border-right: none;
+    border-top-right-radius: 25px;
+}
+
+#btnManager button#nav-format-tab {
+    border-left: none;
+    border-top-left-radius: 25px;
+}
+
+
+#btnManager .panelTitle {
+    color:#fff;
+    font: normal normal normal 12px/15px Montserrat;
+}
+#btnManager .colorPreview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+#btnManager .sketch-picker.active {
+    display: block;
+}
+#btnManager span.color-value {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 3px;
+    border-radius: 2px;
+    border: 1px solid rgb(112 112 112 / 35%);
+}
+#btnManager  .preview{
+    min-width: 200px;
+    margin: 0 auto!important;
+}
+#btnManager .dropend .dropdown-toggle::after {
+    position: absolute;
+    display: inline-block;
+    margin-left: 0px;
+    left: 43px;
+    width: 14px;
+    height: 16px;
+    top: -14px;
+    vertical-align: middle;
+    content: "";
+    background:url("../../../assets/imgBtnGlobal/arrow.svg") no-repeat;
+    cursor: pointer;
+    border: none;
+    background-size: 100% 100%;
+}
+#btnManager  ul.dropdown-menu.preview-options li button {
+    padding: 5px!important;
+    width: 117px;
+    display: block;
+    margin: 0 auto!important;
+    border:1px solid #B5B5B5;
+}
+#btnManager ul.dropdown-menu {
+    position: relative;
+    transform:translate(85px, -50px)!important;
+    border: none;
+    box-shadow: 0px 0px 5px 1px #80808029;
+}
+#btnManager ul.dropdown-menu::before {
+    content: "";
+    background: url("../../../assets/imgTitles/arrow-left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -21px;
+    top: 34px;
+    vertical-align: middle;
+    z-index: 111;
+}
+
+#btnManager div#nav-text, #btnManager div#nav-format {
+    left: 0;
+    box-shadow: none;
+    padding: 23px 5px 5px 10px;
+    padding-bottom: 0px;
+    height: 85%;
+}
+#btnManager  .preview-options .btn{
+    font-weight: 100;
+}
+#btnManager  .preview-options .btn:hover{
+    font-weight: 100;
+    background:#B5B5B5;
+    color:white;
+}
+#btnManager  .palette_ombre{
+    display:none;
+
+}
+#btnManager  .palette_ombre{
+    display:flex;
+
+}
+
+#btnManager .colorpickerOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+
+}
+#btnManager .inputColor {
+    position: relative;
+
+}
+
+#btnManager .sketch-popeover {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+#btnManager .sketch-cover{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+#btnManager  .preview-block {
+    height: 150px;
+  
+}
+#btnManager  .btntype i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+div#btnManager .titleSize, div#btnManager .blockTitle, div#btnManager label.form-check-label {
+    color: #fff;
+}
+
+div#btnManager input.rangeInput.me-2 {
+    width: 79px;
+    height: 2px;
+}

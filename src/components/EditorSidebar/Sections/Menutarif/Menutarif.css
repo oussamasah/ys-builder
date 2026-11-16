@@ -1,0 +1,75 @@
+.Menutarif div {
+    margin: 18px auto;
+}
+.Menutarif img:hover {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F6C344;
+    transition: 0.5s;
+}
+.Menutarif img {
+    width: 320px;
+    border: 1px solid #cbc9c9;
+}
+.Menutarif::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+    display: block!important;
+    width: 9px;
+}
+#myTabContent::-webkit-scrollbar {
+    display: block!important;
+    width: 9px;
+}
+
+.Menutarif {
+    height: 75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.gjs-block-categories .gjs-block:hover {
+    box-shadow: none;
+}
+.Menutarif::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+}
+.Menutarif::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey;
+}
+.Menutarif::-webkit-scrollbar {
+    display: block!important;
+    width: 9px;
+}
+div.Menutarif {
+    height: 75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#widgetsPanel .sectionBlocks {
+    width: 95%;
+    height: 150px;
+    background-size: 100% 100%!important;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 2px solid #4a4a4a;
+    border-radius: 15px;
+}
+.Menutarif .gjs-blocks-c .gjs-block {
+    width: 100%;
+    margin: 3px auto!important;
+    height: 150px!important;
+    border: none!important;
+    position: relative!important;
+
+}
+.Menutarif .gjs-blocks-c .gjs-block {
+    width: 100%;
+    margin: 3px auto;
+    height: 100%;
+    border: none;
+}

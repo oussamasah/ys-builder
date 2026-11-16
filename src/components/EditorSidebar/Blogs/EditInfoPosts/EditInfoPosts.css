@@ -1,0 +1,53 @@
+#EditInfoPosts span.etats {
+    background: #f6c344 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    border: none;
+    padding: 4px;
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+#EditInfoPosts .modal.show .form-control.slugpost {
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    margin: 2px 3px;
+}
+
+#EditInfoPosts  .galerie {
+    height: 86px;
+    position: relative;
+    padding: 2px 0;
+    background-color: #f2f2f2;
+    color: #617379;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px dashed #617379;
+    cursor: pointer;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#EditInfoPosts img.imgEditpost {
+    max-width: 106px;
+ 
+}
+#EditInfoPosts  span.inf i {
+    font-size: 12px;
+}
+#EditInfoPosts .nav-tabs .nav-item.show .nav-link,#EditInfoPosts  .nav-tabs .nav-link.active {
+    color: #f6c344;
+}
+#EditInfoPosts  .nav-tabs .nav-link{
+    color: #000;  
+}
+#EditInfoPosts .hide {
+    display: none;
+}
+
+#EditInfoPosts .show {
+    display: block;
+}

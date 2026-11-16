@@ -1,0 +1,194 @@
+#Colone img.imgtitle {
+    width:20px
+}
+
+#Colone button.active {
+    background: none;
+    color: #f6c344;
+    border: none;
+    border-bottom: 1px solid;
+}
+#Colone {
+    display: flex;
+    justify-content: space-between;
+}
+#Colone button {
+    background: none;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#Colone .selectFont  {
+    width: 50%
+}
+#Colone .selectFont .css-b62m3t-container {
+    color: black;
+}
+#Colone  .AccordSelector i {
+    background: #5d5d5d;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#Colone span.color-value {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 3px;
+    border-radius: 2px;
+    border: 1px solid rgb(253 244 244 / 35%);
+}
+#Colone span.pixel-label {
+    position: absolute;
+    top: 4px;
+    right: 21px;
+    font-weight: 400;
+    color: #000;
+}
+#Colone .blockTitle {
+    font: normal normal normal 12px/15px Montserrat;
+}
+#Colone  span.titleAcc {
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+}
+#Colone .radius-input {
+    text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 0px 2px;
+    max-width: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #71717175;
+    opacity: 1;
+}
+#Colone  input[type="radio" i] {
+    visibility: hidden;
+}
+#Colone  .typeBorder input {
+    display: none;
+}
+#Colone .RadioInput[type="radio"]+label {
+    cursor: pointer;
+    border-radius: 5px;
+}
+#Colone  .RadioInput[type="radio"]:checked+label {
+    box-shadow: none;
+    background: #B5B5B5;
+    color: white;
+}
+#Colone  .btntype i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Colone .btntype {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Colone .input-small-pixel {
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 0;
+    width: 89px;
+}
+
+
+
+
+
+
+#Colone  .form-check-input:checked {
+    background-color: #90E192;
+    border-color: #90E192;
+}
+#Colone  .form-check-input:focus {
+    border:none;
+    outline: 0;
+    box-shadow: none;
+}
+#Colone  .borderSelect{
+    border-radius: 8px;
+    
+        width: 145px;
+    
+}
+ div#offcanvasImg .offcanvas-body{
+    overflow: scroll;
+}
+#Colone  label.active {
+    box-shadow: none;
+    background: #B5B5B5;
+    color: white;
+}
+#Colone  .radius-input{   
+     text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    width: 40px;
+    
+border-radius: 5px;
+box-shadow: none;
+margin: 0px 2px;
+max-width: 50px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #71717175;
+opacity: 1;
+
+}
+#Colone  input.rangeInput.me-2 {
+    width: 85px;
+    height: 2px;
+}
+#Colone  .input-small-pixel {
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 0;
+    width: 70px;
+}
+#Colone .input-with-label-pixel {
+    position: relative;
+}
+#Colone .rangeInput{
+    background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+    border: solid 2px #707070;
+    border-radius: 8px;
+    height: 7px;
+    width: 400px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+  #Colone .rangeInput::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: white;
+    border:1px solid #707070
+  }

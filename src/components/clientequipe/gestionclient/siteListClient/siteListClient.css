@@ -1,0 +1,752 @@
+
+table.tablesite tbody tr:nth-child(even) {
+    background: #fff;;
+}
+.serash-sites input.form-control {
+    border: 1px solid #aaaa;
+    background: rgb(170 170 170 / 12%);
+}
+.serash-sites button, .serash-sites button:hover {
+    background: #F6C344;
+    color: #fff;
+    font-family: 'Montserrat';
+    border: 1px solid #F6C344;
+    border-radius: 0px 7px 7px 0px;
+    width: 52px;
+    z-index: 0!important;
+}
+th.demo {
+    display: inline-block;
+    float: left;
+}
+.textsup.s{
+    background: green;
+    color: #fff;
+}
+#allmodal .modal-body{
+    padding:8px
+}
+.textsup{
+    background: #F6C344;
+    color: #fff;
+    padding: 4px;
+    border-radius: 11px;
+    font-size: 11px;
+    top: -1.5em;
+    /* animation: flash 3s cubic-bezier(0.47, 0, 0, 0.63) infinite; */
+}
+#listsite .client {
+    float: left;
+    margin-top: 2px;
+    display: flex;
+}
+span.clients b {
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #353535;
+}
+th.demo span b {
+    font-weight: 700;
+}
+.dates img {
+    display: inline-block;
+}
+ .dates .dateSite {
+    display: inline-block;
+}
+.dates {
+    text-align: right;
+    margin: 16px 24px 1px 11px
+}
+.bodySite .input-group.mb-3.serash-sites {
+    margin: 16px 11px 11px 11px;
+}
+table.table.table-borderless.tablesite th.Etiq {
+    background: #F9F9F9;
+}
+ul.etiquetes {
+    list-style: none;
+    text-align: justify;
+    padding: 0
+}
+li.activite {
+    background: #BA0E67;
+    width: 166px;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+}
+input:placeholder-shown + button{
+    opacity: 0;
+    pointer-events: none;
+  } 
+  .serash-sites button.iclosed {
+    position: absolute;
+    border: none;
+    display: block;
+    width: 15px;
+    height: 15px;
+    line-height: 16px;
+    font-size: 12px;
+    border-radius: 50%!important;
+    top: 0;
+    bottom: 0;
+    right: 70px;
+    margin: auto;
+    background: #ddd;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .1s;
+    z-index: 9!important;
+}
+
+li.offre {
+    background: #F6C344;
+    width: 166px;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+}
+li.leaseur {
+    background: #353535;
+    width: 166px;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+}
+li.agence {
+    background: #0E42BA;
+    width: 166px;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+}
+
+ul.etiquetes li {
+    margin: 7px auto;
+}
+ul.etiquetes li img {
+    background: #ffffff7a;
+    border-radius: 50px;
+    padding: 4px;
+   
+    margin: 1px 3px;
+}
+.tooltip-inner {
+    background: none;
+    box-shadow: none;
+
+}
+ul.etiquetes li span {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+ul.etiquetes li span.add {
+    display: inline-block;
+    width: 47%;
+    float: right;
+}
+div#overlay-example {
+    top: 5%!important;
+}
+.bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before{
+    display: none;
+}
+
+.toolitpss .tooltip-inner {
+    max-width: 100%;
+    width: 226px;
+    padding: 17px 15px 15px 25px; 
+    text-align: center;
+    background: url("../../../../assets/imgSites/Union.png")no-repeat!important;
+        background-size: 100%!important;
+}
+span.text-etiquette {
+    font-size: 14px;
+    line-height: 18px;
+    vertical-align: middle;
+    color: #B5B5B5;
+    cursor: pointer;
+}
+input.react-datepicker-ignore-onclickoutside::placeholder,.dateSite input[type="text"]::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    vertical-align: middle;
+    color: #B5B5B5;
+
+}
+.bodySite .input-group.mb-3.serash-sites  input[type="text"]::placeholder {
+    font: normal normal normal 12px/16px Montserrat;
+letter-spacing: 0.4px;
+color: #CBCBCB;
+opacity: 1;
+}
+
+.piker {
+    display: inline-block;
+    margin-right: -22px;
+    z-index: 0;
+}
+.Etiqu {
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    z-index: 99999;
+}
+.bodys {
+    background: #F9F9F9;
+    
+}
+.Etiqu:before {
+    content: '';
+    border-right: 1px solid #B5B5B5;
+    position: relative;
+    top: 3px;
+    left: -26px;
+}
+.bodySite {
+    background: #fff;
+    box-shadow: 0px 0px 0px #00000080;
+    padding: 0px 10px;
+    border-radius: 23px;
+}
+table.table.table-borderless.tablesite tr td {
+    border-radius: 0px 10px 10px 0px;
+  
+}
+.client {
+    float: left;
+    margin-top: 2px;
+}
+span.name {
+    display: block;
+    text-align: justify;
+    vertical-align: middle;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #353535;
+}
+ul.Activitetable {
+    column-count: 2;
+    list-style: none;
+}
+span.clients {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+    text-align: justify;
+}
+.client img {
+    display: inline-block;
+    object-fit: cover;
+    object-position: 0% 0%;
+    width: 106px;
+    max-height: 71px;
+    box-shadow: 0px 0px 5px 0px #eee
+}
+td.tableNameSite {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+table.table.table-borderless.tablesite button {
+    border: none;
+    background: transparent;
+}
+table.table.table-borderless.tablesite .dropdown {
+    position: relative;
+}
+table.table.table-borderless.tablesite th.Etiq .dropdown {
+    margin-right: -5px;
+}
+
+
+table.table.table-borderless.tablesite  th.Actions {
+    background: #F9F9F9;
+    border-radius: 50px 0px 0px 50px;
+}
+table.table.table-borderless.tablesite  th.Etat{
+    background: #F9F9F9;
+}
+table.table.table-borderless.tablesite th.Etat img.Etatimg {
+    margin-left: 5px;
+}
+table.table.table-borderless.tablesite ul.dropdown-menu.show:before {
+    content: '';
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAABJklEQVQ4jdWUP06EQBSHf4Ka3fVfTGzEjngDGysv4QmMlR303oFKKw7hDSgIW9ha0BISI4WEaSjAncFM8taMG2RloNj9kukm3/zmzXuDrcHsCGroXqJLugtgR0f6ZxrP884A7JPcpL1ah/wghPhM0/QBwDGAKR1gDhI3RFVVr0EQXAM4BDCh5Hqpm998McaeXNe9AHCgpO4nb1rgnH8kSXJPJZGp93qJ26RKSeZhGF5Rrf/fJV1SYpHn+V1bWu0GlzU1DON0cE2XCCFYlmWuZVkzpRv0pWVZvvi+fwlgRl2g/1Cc8/c4jm8BHGm9/Ip0wRh7dhznXEm3nKx+AyBtdV2/RVF0M8o0SYqieLRt+6Ql3Vq6NslkQlkNrUGM892tMKpsAwHwDeU1C/USUfHRAAAAAElFTkSuQmCC)no-repeat!important;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 18px;
+    right: -14px;
+    z-index: -1;
+}
+table.table.table-borderless.tablesite ul.dropdown-menu li {
+    margin: 5px 0px;
+    cursor: pointer;
+   
+}
+table.table.table-borderless.tablesite ul.dropdown-menu li img {
+margin-right: 5px;
+width: 12px;
+}
+table.table.table-borderless.tablesite ul.dropdown-menu.show {
+  
+
+    transform: translate(-24px, -14px)!important;
+    background-size: 100% 100%!important;
+    min-width: 200px;
+    /* min-height: 139px; */
+    min-height: 51px;
+    border: none;
+ 
+    background-size: 100% 100%!important;
+    box-shadow: 0px 0px 5px #80808057;
+}
+
+table.table.table-borderless.tablesite th.Actions span, table.table.table-borderless.tablesite th.Etat span {
+    width: 100%;
+    text-align: center;
+    font: normal normal normal 14px/16px Montserrat;
+    margin: 0 auto;
+    display: block;
+    background: #F9F9F9;
+    border-radius: 50px 0px 0px 50px;
+    padding: 8px;
+    border-right: 1px solid #eee;
+}
+table.table.table-borderless.tablesite th{
+padding: 0;
+}
+th.Etiq {
+    background: #F9F9F9;
+}
+.dropstart .dropdown-toggle::before{
+    display: none!important;
+}
+.btn-group.dropstart ul.dropdown-menu.show li, .btn-group.dropstart ul.dropdown-menu.show li span {
+    border: none;
+    font-size: 10px;
+    line-height: 22px;
+    padding: 0px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #B5B5B5;
+}
+.btn-group.dropstart {
+    margin: auto;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-top: 28px;
+}
+th.Etat.ac span {
+    opacity: 0;
+}
+td.icon {
+    text-align: center;
+}
+table.table.table-borderless.tablesite button.etiq {
+    margin: 0px 0 0 11px;
+    background: #353535;
+    border-radius: 50px;
+    color: #F6C344;
+    width: 50px;
+    vertical-align: middle;
+}
+table.table.table-borderless.tablesite .dropdown-toggle::after{
+    display: none;
+}
+table.table.table-borderless.tablesite .dropdown-menu.etiqs.show {
+    display: block;
+    width: 1287px;
+    transform: translate(0px , 38px)!important;
+    padding: 21px 33px 21px 33px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border: none;
+}
+table.table.table-borderless.tablesite th.Etat ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+table.table.table-borderless.tablesite th.Etat .dropdown-menu.show {
+    display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border: none;
+}
+table.table.table-borderless.tablesite th.Etat span.type {
+    font: normal normal 600 12px/15px Montserrat!important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 4px;
+    display: inline-block!important;
+    width: 84px!important;
+    border-radius: 50px;
+    margin: 5px 13px;
+}
+.eteSite span {
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.demo{
+    background: rgb(20, 174, 180);
+}
+.suspendu{
+    background: rgb(255, 136, 0);
+}
+.inactif{
+    background: rgb(184, 38, 0);
+}
+.actif{
+    background: #149917 0% 0% no-repeat padding-box;
+}
+
+.eteSite {
+    display: table;
+
+    opacity: 1;
+    border-radius: 50px;
+    width: 84px;
+    padding: 26px;
+    text-align: center;
+    margin: 17% auto;
+}
+table.table.table-borderless.tablesite th.Etiq span.actitvite {
+        text-align: left;
+        font: normal normal 600 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #BA0E67;
+        opacity: 1;
+    }
+    table.table.table-borderless.tablesite th.Etiq span.agences {
+        text-align: left;
+        font: normal normal 600 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #0E42BA;
+        opacity: 1;
+    }
+    table.table.table-borderless.tablesite th.Etiq span.offres, table.table.table-borderless.tablesite th.Etiq span.engagements {
+        font: normal normal 600 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #F6C344;
+        opacity: 1;
+    }
+    table.table.table-borderless.tablesite th.Etiq span.financement{
+        text-align: left;
+        font: normal normal 600 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+        opacity: 1;
+    }
+    .dropdown {
+        text-align: center;
+    }
+    table.table.table-borderless.tablesite th.Etiq span {
+        text-align: left;
+        font: normal normal normal 14px/16px Montserrat;
+        letter-spacing: 0.47px;
+        color: #353535;
+        opacity: 1;
+    }
+    table.table.table-borderless.tablesite button.etiq b {
+        text-align: left;
+        font: normal normal normal 12px/16px Montserrat;
+        letter-spacing: 0.4px;
+        color: #F6C344;
+        opacity: 1;
+    }
+   
+    ul.Activitetable {
+        column-count: 2;
+        list-style: none;
+        width: 200px;
+        margin: 7px auto 0px auto;
+    }
+    ul.Activitetable li {
+        margin: 0px 0px 9px 0px;
+        opacity: 1;
+        display: block;
+        width: 84px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    ul.Activitetable li.os {
+        background: #BA0E67 0% 0% no-repeat padding-box;
+    }
+    ul.Activitetable li.ai{
+        background: #0E42BA 0% 0% no-repeat padding-box;
+    }
+    ul.Activitetable li.st{
+        background: #F6C344 0% 0% no-repeat padding-box; 
+    }
+
+    ul.Activitetable li.ge{
+        background: #353535 0% 0% no-repeat padding-box;
+    }
+
+    ul.Activitetable li.os  span ,ul.Activitetable li.ai  span,ul.Activitetable li.ge  span {
+        text-align: center;
+        font: normal normal 600 12px/15px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    ul.Activitetable li.st  span {
+        text-align: center;
+        font: normal normal 600 12px/15px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+        opacity: 1;
+    }
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-top: 20px;
+        padding: 0;
+       }
+       
+       .pagination a {
+        cursor: default;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #6c7ac9;
+        color: #6c7ac9;
+        margin-left: 10px;
+       }
+       
+       .pagination li:not(.disabled) a:hover {
+        background-color: bisque;
+        cursor: pointer;
+       }
+       
+       .pagination li a {
+        font-weight: bold;
+       }
+       
+       .pagination li.active a {
+        color: #fff;
+        background: #6c7ac9;
+       }
+       
+       .pagination li.disabled a {
+        pointer-events: none;
+        color: rgb(198, 197, 202);
+        border: 1px solid rgb(198, 197, 202);
+       }
+       .fade.modalDelete.modal.show .modal-header {
+        border: none;
+        background: #f9f9f9;
+        padding: 0;
+    }
+    .fade.modalDelete.modal.show .modal-title.h4 {
+        font: normal normal 600 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+    }
+    .fade.modalDelete.modal.show .modal-footer {
+        border: none;
+    }
+    .fade.modalDelete.modal.show .modal-body {
+        font: normal normal normal 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+    }
+    .fade.modalDelete.modal.show .modal-footer button.btn.btn-secondary {
+        background: #F6C344 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 0px #00000029;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        width: 100px;
+        height: 36px;
+        padding: 6px;
+        text-align: center;
+        font: normal normal 600 12px/15px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1F;
+    }
+    .fade.modalDelete.modal.show .modal-footer button.btn.btn-danger {
+
+        box-shadow: 0px 3px 0px #00000029;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        width: 100px;
+        height: 36px;
+        padding: 6px;
+        text-align: center;
+        font: normal normal 600 12px/15px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1
+    }
+    .fade.modalDelete.modal.show  .modal-content {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 4px #00000029!important;
+        border-radius: 5px;
+        border: none;
+    }
+    .btn-group.dropstart ul.dropdown-menu.show li.redd span {
+        color: rgb(184, 38, 0);
+        font-weight: bold;
+    }
+    .btn-group.dropstart i.fal.fa-trash-alt {
+        color: rgb(184, 38, 0);
+    }
+    /*************** Debut Syle modal*********************/
+    .modalDelete .titre_popup_page {
+        background: #F9F9F9;
+        padding: 13px;
+        border-radius: 11px 11px 0px 0px;
+    }
+    .modalDelete .modal_header_add_page {
+        background: transparent;
+        font: normal normal 600 21px/30px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+        text-align: justify;
+    }
+    .modalDelete .add_page_modal_content .addPageOptions {
+        width: 100%;
+        padding-right: 0;
+    }
+    .modalDelete .add_page_modal_content .addPageOptions .add_Page_Options_title {
+        display: block;
+        text-align: justify;
+        font: normal normal normal 14px/18px Montserrat;
+        letter-spacing: 0px;
+        color: #353535;
+        margin: 0 auto;
+    }
+    .modalDelete .add_page_modal_content {
+        padding: 15px;
+    }
+    .modalDelete.modal.show .modal-dialog {
+        max-width: 568px;
+    }
+    .modalDelete .modal_header_add_page i {
+        position: absolute;
+        right: 9px;
+        top: 19px;
+        color: #353535;
+        cursor: pointer;
+    }
+    .modalDelete .titre_popup_add_page {
+        margin-left: 15px;
+    }
+    .modalDelete div#addPageModal .modal-body {
+        background: transparent;
+        padding: 17px;
+    }
+    .modalDelete button.btn.btn-rounded.btn-outline-secondary {
+        text-align: center;
+        font: normal normal bold 13px/16px Montserrat;
+        letter-spacing: 0px;
+        border-radius: 50px;
+    }
+    .modalDelete button.btn.btn-rounded.btn.btn-outline-secondary.delete {
+        background: rgb(184, 38, 0);
+        text-align: center;
+        font: normal normal bold 13px/16px Montserrat;
+        letter-spacing: 0px;
+        color: #fff;
+        border-color: rgb(184, 38, 0);
+    }
+    .modalDelete button.btn-outline-secondary:hover {
+        background-color: #fff;
+        color: #6c757d;
+        border-color: #6c757d;
+    }
+    th.demo span {
+
+        cursor: pointer;
+    }
+    .btnactions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 28px auto;
+    }
+      /*************** Fin Syle modal*********************/
+      @media(min-width:1024px) {
+        th.demo span {
+            margin: 0 0px 0 5px;
+            font: normal normal 300 12px/18px Montserrat;
+
+        }
+    }
+    @media(min-width:1200px) {
+        th.demo span {
+            margin: 0 0px 0 5px;
+            font: normal normal 300 13px/18px Montserrat;
+
+        }
+    }
+      @media(min-width:1500px) {
+        th.demo span {
+            margin: 0 0px 0 14px;
+            font: normal normal 300 14px/18px Montserrat;
+   
+        }
+    }
+    @media(min-width:1920px) {
+        th.demo span {
+            margin: 0 0px 0 14px;
+            font: normal normal 300 14px/18px Montserrat;
+        
+        }
+     }
+
+
+
+
+
+
+
+
+
+
+     .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 140px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -75px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }

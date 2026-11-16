@@ -1,0 +1,662 @@
+#ModalWidgetforme .biblio_image .gallery-item {
+  width: 45%;
+  height: 200px;
+  background-size: cover !important;
+  border: 2px solid #f6c344;
+  border-radius: 5px;
+  background-position: center !important;
+}
+
+#ModalWidgetforme .config {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+#ModalWidgetforme .cadreImage {
+  width: 100%;
+  height: 320px;
+  background: rgb(53 53 53 / 56%);
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ModalWidgetforme .file-upload {
+  position: relative;
+  overflow: hidden;
+
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #f6c344;
+
+  color: #fff;
+  margin: 5px auto 20px;
+  display: table;
+}
+
+#ModalWidgetforme .file-upload input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#ModalWidgetforme .drop-zone {
+  width: 100%;
+  height: 92px;
+  margin-bottom: 15px;
+  background: white;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: gray;
+}
+
+#ModalWidgetforme sup.selecterd {
+  top: 12px;
+  background: #f6c344;
+  border-radius: 46%;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ModalWidgetforme sup {
+  top: 12px;
+  background: #e5e8e9;
+  border-radius: 46%;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#ModalWidgetforme .grids {
+  font-size: 30px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 7px;
+
+}
+
+#ModalWidgetforme .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+span.color-value {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 3px;
+}
+
+#ModalWidgetforme .gallery-item i.fa-trash-alt {
+  position: absolute;
+  top: 0px;
+  /* right: 5px; */
+  color: white;
+  cursor: pointer;
+  background: #f6c344;
+  /* display: none; */
+  padding: 6px;
+  border-radius: 0 0 10px 0px;
+}
+
+#ModalWidgetforme .gallery-item i.fa-check-circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #098201;
+  cursor: pointer;
+  background: white;
+}
+
+#ModalWidgetforme .gallery-item:hover i {
+  display: block;
+}
+
+#ModalWidgetforme input#inputId {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(219 219 219);
+  width: 100%;
+  margin: 10px 0px;
+}
+
+span.tag-wrapper.ReactTags__tag {
+  background: #353535;
+  color: white;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 4px 4px;
+  border-radius: 7px;
+}
+
+span.tag-wrapper.ReactTags__tag button {
+  background: none;
+  color: white;
+  border: none;
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: absolute;
+}
+
+div.ReactTags__suggestions ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+div.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+#madalsocial.input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+#madalsocial.form-control {
+  /* border: none; */
+  font-size: 12px;
+  color: #717171;
+}
+
+#madalsocial .input-with-label-pixel {
+  position: relative;
+}
+
+#madalsocial .Designe {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#madalsocial .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+  border: 1px solid #ced4da;
+}
+
+
+#ModalWidgetforme input.form-control.form-control-sm.input-small-pixel {
+  border: 1px solid #ced4da
+}
+
+#ModalWidgetforme .input-with-label-pixel {
+  position: relative;
+}
+
+#ModalWidgetforme span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+
+#ModalWidgetforme .scrolly {
+  overflow: scroll;
+  height: 200px;
+}
+
+#ModalWidgetforme div#selecteditem {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+/* #ModalWidgetforme .firstdiv {
+  margin: 30px 0;
+  background: #fff;
+  padding: 10px;
+} */
+
+#ModalWidgetforme .firstdivplus {
+  margin: 0px 0;
+  background: #fff;
+  padding: 10px;
+}
+
+div#selecteditem a.nav-link {
+  color: #2f373a;
+}
+
+div#selecteditem span.title-popups {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 12px;
+  background: #2f373a;
+  color: #eee;
+}
+
+div#ModalWidgetforme.modal-xs {
+  left: 16%;
+}
+
+div#ModalWidgetforme .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#ModalWidgetforme span.noticetext {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+div#selecteditem .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0 5px;
+}
+
+div#selecteditem .gallery-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ModalWidgetforme .btn-group.dropend {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#ModalWidgetforme input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+
+#ModalWidgetforme .rangeInput {
+  background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+#ModalWidgetforme input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+
+#ModalWidgetforme .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+#ModalWidgetforme .nav-link.tt.active,
+#ModalWidgetforme .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+
+#ModalWidgetforme button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+
+#ModalWidgetforme div#nav-tab {
+  border: none;
+}
+
+#ModalWidgetforme .nav-link.tt {
+  color: #eee;
+}
+
+#ModalWidgetforme .nav-link.tt.active {
+  color: #f6c344;
+}
+
+#ModalWidgetforme .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+
+#ModalWidgetforme span.titre {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#ModalWidgetforme .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+  cursor: pointer;
+}
+
+#ModalWidgetforme span.titredropdown {
+  display: block;
+  font-size: 15px;
+}
+
+#ModalWidgetforme .list {
+  overflow: scroll;
+  height: 200px;
+}
+
+#ModalWidgetforme .list li.selecterd {
+  border: 1px solid #f6c344;
+  margin: 0 4px;
+}
+
+#ModalWidgetforme .list li {
+  border: 1px solid #e5e8e9;
+  margin: 0 4px;
+}
+
+#ModalWidgetforme img.img.imgReseau {
+  width: 223px;
+  margin: 0 4px;
+}
+
+#ModalWidgetforme .disabled.grids {
+  color: #eee;
+  cursor: not-allowed;
+
+}
+
+div#ModalWidgetforme {
+  top: 12%;
+}
+
+div#ModalWidgetforme ul.listaide {
+  list-style: none;
+  padding: 0;
+}
+
+div#ModalWidgetforme ul.listaide li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px;
+}
+
+div#ModalWidgetforme span.liss {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #f6c344;
+  text-align: center;
+  border-radius: 50px;
+}
+
+div#ModalWidgetforme span.aide {
+  padding: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#ModalWidgetforme .btnanimations button.btn.btn-light {
+  margin: 4px 2px;
+  font-size: 12px;
+  box-shadow: 1px 1px 0px 0px #ddd1d1;
+}
+
+#ModalWidgetforme .nav-pills .nav-link {
+  color: #2f373a;
+}
+
+#ModalWidgetforme .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+
+#ModalWidgetforme span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+
+#ModalWidgetforme .scale.btn.btn-light {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.scale.btn.btn-light:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#ModalWidgetforme .rotation.btn.btn-light {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+#ModalWidgetforme .rotation.btn.btn-light:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#ModalWidgetforme .flip.btn.btn-light {
+  transform: scale(.75);
+  -webkit-transform: scale(.75);
+  -ms-transform: scale(.75);
+  transform-style: preserve-3d;
+}
+
+.flip.btn.btn-light:hover {
+  transition: all 2s;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+#ModalWidgetforme .zoomout.btn.btn-light {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+#ModalWidgetforme .zoomout.btn.btn-light:hover {
+  transition: all 1s;
+  transform: scale(.5);
+  ;
+}
+
+#ModalWidgetforme .leftright.btn.btn-light {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+#ModalWidgetforme .leftright.btn.btn-light:hover {
+  transition: all 1s;
+  transform: scaleX(1.5);
+}
+
+.list_svg img {
+  width: 68px;
+  height: 55px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #2f373a;
+  cursor: pointer;
+}
+
+.forme input[type="radio"] {
+  visibility: hidden !important;
+  width: 0px;
+}
+
+.forme input[type="radio"]:checked+label {
+  background-color: rgb(232, 202, 5) !important;
+  color: black !important;
+  padding: 5px;
+}
+
+.btn-group.dropend.formeSelected {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.list_forme img,
+.formeSelected img {
+  width: 90px;
+}
+
+div.tab-forme button {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0;
+  color: black !important;
+}
+
+div.tab-forme button.active {
+  border-bottom: 1px solid #000 !important;
+}
+
+.d-flex.justify-content-center.align-align-items-center.flex-wrap.list_svg.forme svg {
+  width: 55px;
+  height: 100%;
+}
+
+.list_forme.active {
+  border: 1px solid #9b9b9b;
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.list_forme {
+  border: 1px solid #fff;
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#accordiontitre .orientation,
+#accordionDesc .orientation {
+  display: none !important;
+}
+
+.forme input[type="radio"]+label {
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+  height: 70px;
+  margin: 10px 14px;
+}
+.forme-text label.RadioLabel {
+  width: 29px;
+  margin: 1px;
+}
+.forme_animation #active {
+  background-color: #f6c344;
+}

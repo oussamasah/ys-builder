@@ -1,0 +1,26 @@
+.ColorConfig .colorpickerOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+
+}
+.ColorConfig .inputColor {
+    position: relative;
+
+}
+.ColorConfig .sketch-popeover {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+.ColorConfig .sketch-cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}

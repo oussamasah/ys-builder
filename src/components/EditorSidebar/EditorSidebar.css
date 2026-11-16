@@ -1,0 +1,403 @@
+.EditorWidgets {
+    padding: 22px 0;
+    cursor: pointer;
+}
+div.EditorSidebar {
+    width: 90px;
+    height: 1030px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+    list-style: none;
+    padding: 0;
+}
+button.EditorWidgets span {
+    display: block;
+    margin: 6px auto;
+    text-align: center;
+    text-align: center;
+    font: normal normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+}
+.EditorWidgets img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.SidebarWidgets div#v-pills-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SidebarWidgets.d-flex.align-items-start {
+    width: 90px;
+    height: 94.7vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+}
+#tabSideBar{
+    display: none;
+}
+#tabSideBar.active{
+    display: block;
+    
+}
+.SidebarWidgets .closeRetour {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    border-radius: 19px;
+    opacity: 1;
+    width: 106px;
+    height: 24px;
+    padding: 0px 0px 1px;
+    cursor: pointer;
+    margin: 31px 0px 31px 15px;
+}
+.SidebarWidgets .closeRetour span {
+    text-align: center;
+    font: normal normal 300 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    margin-bottom: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 12px;
+}
+/* .SidebarWidgets .tabContant {
+    z-index: 3;
+    position: absolute;
+    max-width: 600px;
+    min-width: 400px;
+    background: white;
+    top: 50px;
+    height: 94.6vh;
+    overflow-y: visible;
+    left: 82px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+} */
+.DesignLayout {
+    z-index: 3;
+    position: absolute;
+    max-width: 600px;
+    min-width: 400px;
+    background: white;
+    top: 50px;
+    height: 94.6vh;
+    overflow-y: visible;
+    left: 82px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+}
+#widgetsPanel .sectionBlocks{
+    width: 95%;
+    height: 150px;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+div#typePages {
+    z-index: 3;
+    position: absolute;
+    max-width: 600px;
+    min-width: 400px;
+    background: white;
+    top: 50px;
+    height: 94.6vh;
+    overflow-y: clip;
+    left: 82px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+}
+
+div#setting {
+    z-index: 3;
+    position: absolute;
+    max-width: 600px;
+    min-width: 280px;
+    background: white;
+    top: 50px;
+    height: 94.6vh;
+    overflow-y: clip;
+    left: 0;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+}
+div#Allwidgets {
+    z-index: 3;
+    position: absolute;
+    max-width: 600px;
+    min-width: 400px;
+    background: white;
+    top: 50px;
+    height: 94.6vh;
+    left: 82px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+    overflow: scroll
+}
+
+#AllsectionsModel{
+    position: absolute;
+    max-width: 600px;
+    min-width: 158px;
+    background: white;
+    top: 50px;
+    z-index: 3;
+    height: 94.6vh;
+    overflow-y: visible;
+    left: 0px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+}
+.SidebarWidgets .closeRetour i {
+    background: #CBC9C9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    padding: 3px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    float: left;
+    margin-top: 1px;
+    padding: 10px;
+    margin-left: 2px;
+}
+.SidebarWidgets div div#v-pills-sections.tab-pane{
+    width: 140px;
+    height: 1030px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+    left: 0;
+}
+
+.SidebarWidgets div div#v-pills-parametres.tab-pane {
+width: 280px;
+height: 94vh;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 6px #00000029;
+opacity: 1;
+left: 0;
+}
+.SidebarWidgets div.tab-pane {
+    width: 391px;
+    height: 94.6vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+    left: 20px;
+    z-index: 9;
+}
+.SidebarWidgets button {
+    padding: 20px 10px;
+}
+.SidebarSection {
+    overflow: scroll;
+    max-height: 81.5vh;
+}
+.SidebarWidgets button#v-pills-design-tab.active span.Design  {
+    background: url("../../assets/imgEditorSidebar/DesignYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-design-tab span.Design  {
+    background: url("../../assets/imgEditorSidebar/Design.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-pages-tab.active span.Page  {
+    background: url("../../assets/imgEditorSidebar/PagesYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-pages-tab span.Page  {
+    background: url("../../assets/imgEditorSidebar/Page.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-widgets-tab.active span.Widgets  {
+    background: url("../../assets/imgEditorSidebar/WidgetsYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-widgets-tab span.Widgets  {
+    background: url("../../assets/imgEditorSidebar/Widgets.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-parametres-tab.active span.Parametres  {
+    background: url("../../assets/imgEditorSidebar/ParametresYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-parametres-tab span.Parametres  {
+    background: url("../../assets/imgEditorSidebar/Parametres.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-blog-tab.active span.Blog  {
+    background: url("../../assets/imgEditorSidebar/BlogYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-blog-tab span.Blog  {
+    background: url("../../assets/imgEditorSidebar/Blog.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+    background-size: 100%;
+}
+.SidebarWidgets button#v-pills-sections-tab.active span.Sections  {
+    background: url("../../assets/imgEditorSidebar/SectionsYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.SidebarWidgets button#v-pills-sections-tab span.Sections  {
+    background: url("../../assets/imgEditorSidebar/Sections.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+
+
+.SidebarWidgets .titleDesign > span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #353535;
+    opacity: 1;
+    margin: 0 auto;
+    display: block;
+}
+.SidebarWidgets .nav-pills .nav-link.active span, .SidebarWidgets .nav-pills .nav-link.active {
+    text-align: center;
+    font: normal normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #F6C344;
+    opacity: 1;
+    background: transparent;
+}
+.SidebarWidgets .close {
+    display: block;
+    text-align: right;
+    margin: 8px 27px;
+}
+.SidebarWidgets .close img {
+    cursor: pointer;
+}
+.SidebarWidgets .titleDesign {
+    margin: 10px auto 22px auto;
+}
+.SidebarWidgets .AddPages {
+    display: block;
+    float: right;
+    margin-top: 21px;
+}
+
+.rst__expandButton {
+    background: url(../../assets/imgSites/iconOption.svg)no-repeat!important;
+    border: none!important;
+    box-shadow: none!important;
+    background-size: 100% 50%!important;
+    top: 64%!important;
+
+}
+.rst__moveHandle, .rst__loadingHandle {
+    height: 100%;
+    width: 13.33px;
+    background: url(../../assets/imgEditorSidebar/PagesIcon.svg)no-repeat!important;
+    border: none;
+    box-shadow: none;
+    cursor: move;
+    border-radius: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center !important;
+}
+.rst__lineHalfHorizontalRight::before, .rst__lineFullVertical::after, .rst__lineHalfVerticalTop::after, .rst__lineHalfVerticalBottom::after {
+    position: absolute;
+    content: '';
+    display: none;
+}
+div#designList.active {
+    display: block;
+}
+div#designList {
+    display: none;
+}
+ul.listDesign {
+    list-style: none;
+    padding: 0;
+}
+
+ .form-switch .form-check-input {
+    width: 2em;
+    margin-left: -1.5em;
+    background-image: url("../../assets/imgBorder/switchform.svg")!important;
+    background-position: left center;
+    border-radius: 2em;
+    transition: background-position .15s ease-in-out;
+}
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #717171;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    cursor: pointer;
+    border: 1px solid #707070!important;
+}
+.form-check-input:checked {
+    background-color: #90E192;
+    border-color: #90E192;
+}
+
+ div#pages, div#popup {
+    left: 0;
+    box-shadow: none;
+    background: none;
+}
+ button#pages-tab,  button#popup-tab {
+    width: 195px!important;
+    padding: 11px 0px;
+    display: block;
+    text-align: center;
+    font: normal normal normal 14px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="53" viewBox="0 0 70 53">
+  <g id="Groupe_7147" data-name="Groupe 7147" transform="translate(-123.454 -831)">
+    <rect id="Rectangle_685" data-name="Rectangle 685" width="70" height="8" rx="1" transform="translate(193.454 839) rotate(180)" fill="#717171"/>
+    <path id="Polygone_10" data-name="Polygone 10" d="M2,0,4,2H0Z" transform="translate(188.454 836) rotate(180)" fill="#fff"/>
+    <rect id="Rectangle_686" data-name="Rectangle 686" width="70" height="8" rx="1" transform="translate(193.454 884) rotate(180)" fill="#717171"/>
+    <path id="Polygone_11" data-name="Polygone 11" d="M2,0,4,2H0Z" transform="translate(188.454 881) rotate(180)" fill="#fff"/>
+    <g id="Groupe_7148" data-name="Groupe 7148" transform="translate(123 840)">
+      <path id="Rectangle_683" data-name="Rectangle 683" d="M1,0H69a1,1,0,0,1,1,1V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V1A1,1,0,0,1,1,0Z" transform="translate(0.454)" fill="#717171"/>
+      <path id="Polygone_9" data-name="Polygone 9" d="M2,0,4,2H0Z" transform="translate(61.454 3)" fill="#fff"/>
+      <g id="Rectangle_684" data-name="Rectangle 684" transform="translate(0.454 7)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="70" height="28" stroke="none"/>
+        <rect x="0.5" y="0.5" width="69" height="27" fill="none"/>
+      </g>
+      <path id="Ligne_33" data-name="Ligne 33" d="M54.015.5H-.108A.456.456,0,0,1-.5,0,.456.456,0,0,1-.108-.5H54.015a.456.456,0,0,1,.392.5A.456.456,0,0,1,54.015.5Z" transform="translate(5.5 13.5)" fill="#707070"/>
+      <path id="Ligne_34" data-name="Ligne 34" d="M46.015.5H-.108A.456.456,0,0,1-.5,0,.456.456,0,0,1-.108-.5H46.015a.456.456,0,0,1,.392.5A.456.456,0,0,1,46.015.5Z" transform="translate(5.5 17.5)" fill="#707070"/>
+      <path id="Ligne_35" data-name="Ligne 35" d="M36,.5H0A.5.5,0,0,1-.5,0,.5.5,0,0,1,0-.5H36a.5.5,0,0,1,.5.5A.5.5,0,0,1,36,.5Z" transform="translate(5.5 21.5)" fill="#707070"/>
+      <path id="Ligne_36" data-name="Ligne 36" d="M54.015.5H-.108A.456.456,0,0,1-.5,0,.456.456,0,0,1-.108-.5H54.015a.456.456,0,0,1,.392.5A.456.456,0,0,1,54.015.5Z" transform="translate(5.5 26.5)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

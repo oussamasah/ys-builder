@@ -1,0 +1,80 @@
+#IconConfig .iconPreview {
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+#IconConfig .tabIconType {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#IconConfig .tabIconType button.nav-link.tt {
+  font-size: 18px;
+  width: 50%;
+  padding: 10px;
+  color: black;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: 15px 0px;
+}
+#IconConfig .drop-zone {
+  position: relative;
+}
+#IconConfig .previewIcon {
+  position: relative;
+  right: 0px;
+  max-width: 50px;
+  max-height: 50px;
+}
+#IconConfig .tabIconType button.nav-link.tt.active {
+  font-size: 18px;
+  width: 50%;
+  padding: 10px;
+  color: black;
+  background: #f6c344 !important;
+}
+#IconConfig .d-block.icon-list {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 300px;
+  background: white;
+}
+#IconConfig .iconsList i {
+  font-size: 20px;
+  cursor: pointer;
+}
+#IconConfig .iconsList {
+  padding: 10px;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.formFile {
+  visibility: hidden;
+}
+.prviewImg {
+  text-align: center;
+  width: 100%;
+}
+.imgUploader label {
+  width: 100%;
+}
+.prviewImg img {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 7px;
+}
+#IconConfig .drop-zone {
+  width: 100%;
+  background: #353535;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}

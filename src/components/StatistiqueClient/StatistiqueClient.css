@@ -1,0 +1,463 @@
+.EditorWidgets {
+    padding: 22px 0;
+    cursor: pointer;
+}
+div.EditorSidebar {
+    width: 90px;
+    height: 1030px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+    list-style: none;
+    padding: 0;
+}
+button.EditorWidgets span {
+    display: block;
+    margin: 6px auto;
+    text-align: center;
+    text-align: center;
+    font: normal normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+}
+#statsclients div#v-pills-tab {
+    align-items: center;
+    justify-content: center;
+}
+div#listeStatChart button.nav-link.active {
+    background: #f6c344;
+    color: #fff;
+}
+.addPageOptions.contents span {
+    font-size: 17px;
+    line-height: 32px;
+}
+div#listeStatChart button.nav-link {
+    background: transparent;
+    padding: 11px;
+    margin: 0 5px;
+    display: block;
+    text-align: center;
+    font: normal normal normal 14px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+}
+div#listeStatChart .actions span {
+    padding: 6px;
+    margin: 7px 5px;
+    color: #f6c344;
+}
+div#listeStatChart .paginationSite .page-item.active .page-link {
+    text-align: center;
+    font: normal normal 300 14px/16px Montserrat;
+    letter-spacing: 0.47px;
+    color: #FF8800;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+div#listeStatChart button.page-link {
+    text-align: center;
+    font: normal normal 300 14px/16px Montserrat;
+    letter-spacing: 0.47px;
+    color: #272727;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+div#listeStatChart .actions span.red {
+    color: #9d2c30;
+}
+.EditorWidgets img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.Statistique.d-flex.align-items-start {
+    width: 90px;
+    height: 117vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+}
+#tabSideBar{
+    display: none;
+}
+#tabSideBar.active{
+    display: block;
+    
+}
+
+#statsclients .closeRetour span {
+    text-align: center;
+    font: normal normal 300 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    margin-bottom: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 12px;
+}
+#statsclients .closeRetour {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    border-radius: 19px;
+    opacity: 1;
+    width: 106px;
+    height: 24px;
+    cursor: pointer;
+    margin: 24px 0px 0px 0px;
+}
+#statsclients .closeRetour i {
+    background: #CBC9C9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    padding: 3px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+    float: left;
+    margin-top: 1px;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+#widgetsPanel .sectionBlocks{
+    width: 95%;
+    height: 150px;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#AllsectionsModel{
+    position: absolute;
+    max-width: 600px;
+    min-width: 158px;
+    background: white;
+    top: 50px;
+    z-index: 3;
+    height: 94.6vh;
+    overflow-y: visible;
+    left: 0px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 14%);
+}
+
+.Statistique div.tab-pane {
+    width: 391px;
+    height: 94.6vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+    left: 20px;
+    z-index: 9;
+}
+.Statistique button {
+    padding: 20px 10px;
+}
+.SidebarSection {
+    overflow: scroll;
+    max-height: 81.5vh;
+}
+.Statistique button#v-pills-stats-tab.active span.Stats  {
+    background: url("../../assets/imgEditorSidebar/diagramme-circulaireyellow.png")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+    background-size: contain;
+}
+.Statistique button#v-pills-stats-tab span.Stats  {
+    background: url("../../assets/imgEditorSidebar/diagramme-circulaire.png")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+    background-size: contain;
+}
+.Statistique button#v-pills-reponse-tab.active span.Reponse  {
+    background: url("../../assets/imgEditorSidebar/PagesYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.Statistique button#v-pills-reponse-tab span.Reponse  {
+    background: url("../../assets/imgEditorSidebar/Page.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.Statistique button#v-pills-apercu-tab.active span.Apercu  {
+    background: url("../../assets/imgEditorSidebar/WidgetsYellow.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+.Statistique button#v-pills-apercu-tab span.Apercu  {
+    background: url("../../assets/imgEditorSidebar/Widgets.svg")no-repeat;
+    width: 100%;
+    height: 26px;
+    background-position: center;
+}
+
+
+
+
+.Statistique .titleDesign > span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #353535;
+    opacity: 1;
+    margin: 0 auto;
+    display: block;
+}
+.Statistique .nav-pills .nav-link.active span, .Statistique .nav-pills .nav-link.active {
+    text-align: center;
+    font: normal normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #F6C344;
+    opacity: 1;
+    background: transparent;
+}
+.Statistique .close {
+    display: block;
+    text-align: right;
+    margin: 8px 27px;
+}
+.Statistique .close img {
+    cursor: pointer;
+}
+.Statistique .titleDesign {
+    margin: 10px auto 22px auto;
+}
+.Statistique .AddPages {
+    display: block;
+    float: right;
+    margin-top: 21px;
+}
+
+
+#statsclients .titreStat {
+    font: normal normal normal 22px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    text-align: left;
+    display: block;
+    padding: 15px 0;
+}
+
+#statsclients .actionBtns button {
+    background: transparent;
+    border: none;
+    color: #f6c344;
+}
+
+#statsclients .client {
+    float: left;
+    margin-top: 2px;
+}
+
+#statsclients .client img {
+    display: inline-block;
+    object-fit: cover;
+    object-position: 0% 0%;
+    width: 300px;
+    max-height: 206px;
+    box-shadow: 0px 0px 5px 0px #eee;
+}
+#statsclients .infos .eteSite {
+    display: table;
+    width: 109px;
+    padding: 3px;
+    font-size: 11px;
+    margin: 0px 6px;
+    color: #fff;
+    border-radius: 5px;
+}
+#statsclients  span.clients {
+    display: inline-block;
+    margin: 12px 0px 0 17px;
+    vertical-align: middle;
+    text-align: justify;
+}
+#statsclients .infogeneral {
+    background: #fff;
+    padding: 35px;
+    border-radius: 11px;
+}
+#statsclients .logoClient {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#statsclients .clients {
+    margin: 2px 0px 0 16px;
+}
+#statsclients .logoClient img {
+    padding: 15px;
+    width: 200px;
+}
+#statsclients a.btn.btn-primary.stats,#statsclients button.btn.btn-primary.stats {
+    background: #F6C344 0% 0% no-repeat padding-box;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #fff;
+    border-color: #F6C344;
+    margin: 0;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#statsclients .Engagement, #statsclients .Visite {
+    padding: 15px 0px;
+    display: block;
+}
+#statsclients .Engagement i {
+    letter-spacing: 0px;
+    color: #f6c344;
+    opacity: 1;
+    text-align: left;
+    display: block;
+    padding: 15px 0;
+    font-size: 37px;
+}
+#statsclients  span.count {
+    font: normal normal normal 40px/45px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    text-align: left;
+    display: block;
+    padding: 15px 0;
+}
+#statsclients .Engagement .bor {
+    border-right: 1px solid #353535;
+}
+#statsclients .Engagement .bor:last-child {
+    border-right: none;
+}
+#statsclients  button.nav-link {
+    width: 100%;
+    padding: 11px 6px;
+    display: block;
+    text-align: center;
+    font: normal normal normal 14px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    opacity: 1;
+    text-transform: uppercase;
+}
+#statsclients #statistique button.nav-link {
+    width: 50%;
+}
+#statsclients span.etatnonlu {
+    background: #9d2c30;
+    width: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+#statsclients #v-pills-tabContent.tab-content>.tab-pane {
+    display: block;
+}
+#statsclients #v-pills-tabContent .fade:not(.show) {
+    opacity: 1;
+}
+#statsclients #v-pills-tabContent .tab-pane .fade:not(.show) {
+    opacity: 0;
+    display: none;
+}
+#statsclients #v-pills-tabContents .tab-pane .fade{
+    opacity: 1;
+    display: block;
+}
+#statsclients span.etatlu {
+    background: #f6c344;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+}
+#statsclients span.widthname {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 140px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+#statsclients  .encartStat {
+    background: #fff;
+    padding: 19px 16px;
+    justify-content: space-between;
+    border-radius: 11px;
+}
+
+#statsclients #statistique button#nav-visits-tab {
+    border-left: 0;
+}
+
+#statsclients .listeStat {
+    overflow: scroll;
+    max-height: 260px;
+}
+#statsclients .listeStatChart {
+    overflow: scroll;
+    max-height: 444px;
+}
+
+/* #statsclients .serash-sites button.iclosed {
+    position: absolute;
+    border: none;
+    display: block;
+    width: 36px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 24px;
+    border-radius: 0 0.375rem 0.375rem 0!important;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+    background: #f6c344;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .1s;
+    z-index: 9!important;
+}
+#statsclients  .serash-sites input.form-control {
+    border-radius: 0.375rem!important;
+} */

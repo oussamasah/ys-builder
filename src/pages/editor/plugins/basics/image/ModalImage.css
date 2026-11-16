@@ -1,0 +1,618 @@
+#ModalImage .modal-content {
+  background: #dddddd;
+}
+#ModalImage .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+#ModalImage .nav-link.tt {
+  color: #eee;
+}
+#ModalImage .nav-link.tt.active,
+#ModalImage .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+#ModalImage .nav-link.tt.active {
+  color: #f6c344;
+}
+
+div#ModalImage .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ModalImage button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+#ModalImage .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+#ModalImage span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+
+#ModalImage .configimage {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  height: 500px;
+  overflow-x: hidden;
+}
+
+#ModalImage .config {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+#ModalImage .cadreImage {
+  width: 100%;
+  height: 320px;
+  background: rgb(53 53 53 / 56%);
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#ModalImage .cadreImage i {
+  display: block;
+}
+
+#ModalImage input#ModalImage .typebtn[type="radio" i] {
+  visibility: initial !important;
+}
+
+#ModalImage .models img {
+  margin: 10px;
+
+}
+
+#ModalImage .models img#ModalImage .active {
+  border: 2px solid #f6c344 !important;
+}
+
+
+#ModalImage #imgGlobal .preview {
+  min-width: 200px;
+  margin: 0 auto !important;
+  max-width: 200px;
+}
+
+#ModalImage #imgGlobal .dropend i.dropdown-toggle::after {
+  position: absolute;
+  display: inline-block;
+  margin-left: 0px;
+  left: 43px;
+  width: 14px;
+  height: 16px;
+  top: -14px;
+  vertical-align: middle;
+  content: "";
+  background: url("../../../../../assets/imgBtnGlobal/arrow.svg") no-repeat;
+  cursor: pointer;
+  border: none;
+  background-size: 100% 100%;
+}
+
+#ModalImage #imgGlobal ul.dropdown-menu.preview-options li button {
+  padding: 5px !important;
+  width: 117px;
+  display: block;
+  margin: 0 auto !important;
+  border: 1px solid #b5b5b5;
+}
+
+#ModalImage #imgGlobal ul.dropdown-menu {
+  position: relative;
+  transform: translate(85px, -50px) !important;
+  border: none;
+  box-shadow: 0px 0px 5px 1px #80808029;
+}
+
+#ModalImage #imgGlobal ul.dropdown-menu::before {
+  content: "";
+  background: url("../../../../../assets/imgTitles/arrow-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -21px;
+  top: 34px;
+  vertical-align: middle;
+  z-index: 111;
+}
+
+#ModalImage #imgGlobal .btn-group.dropend li {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ModalImage #imgGlobal .imgpreview {
+  cursor: pointer;
+  border: none;
+}
+
+#ModalImage #imgGlobal .previewTitle {
+  text-align: left;
+  font: italic normal 400 12px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+}
+
+#ModalImage #imgGlobal .preview-block {
+  height: 200px;
+}
+
+#ModalImage #imgGlobal .btn_manager {
+  overflow-x: scroll;
+  height: 68%;
+}
+
+#ModalImage #imgGlobal .sketch-picker.active {
+  display: block;
+}
+
+#ModalImage #imgGlobal .colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+#ModalImage #imgGlobal span.color-value {
+  width: 22px;
+  height: 22px;
+  display: block;
+  margin: 3px;
+  border-radius: 2px;
+  border: 1px solid rgb(112 112 112 / 35%);
+}
+
+#ModalImage #imgGlobal .inputColor {
+  position: relative;
+}
+
+#ModalImage #imgGlobal .sketch-popeover {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+}
+
+#ModalImage #imgGlobal .sketch-cover {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#ModalImage #imgGlobal .btntype {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ModalImage #imgGlobal .blockTitle {
+  font: normal normal normal 12px/15px Montserrat;
+}
+
+#ModalImage #imgGlobal .typeBorder input {
+  display: none;
+}
+
+#ModalImage #imgGlobal .RadioInput[type="radio"]+label {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#ModalImage #imgGlobal .RadioInput[type="radio"]:checked+label {
+  box-shadow: none;
+  background: #b5b5b5;
+  color: white;
+}
+
+#ModalImage #imgGlobal .form-switch .form-check-input {
+  width: 2em;
+  margin-left: -1.5em;
+  background-image: url("../../../../../assets/imgBorder/switchform.svg") !important;
+  background-position: left center;
+  border-radius: 2em;
+  transition: background-position 0.15s ease-in-out;
+}
+
+#ModalImage #imgGlobal .form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #717171;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  cursor: pointer;
+  border: 1px solid #707070 !important;
+}
+
+#ModalImage #imgGlobal .form-check-input:checked {
+  background-color: #90e192;
+  border-color: #90e192;
+}
+
+#ModalImage #imgGlobal .form-check-input:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+#ModalImage #imgGlobal .borderSelect {
+  border-radius: 8px;
+
+  width: 145px;
+}
+
+#ModalImage #imgGlobal label.active {
+  box-shadow: none;
+  background: #b5b5b5;
+  color: white;
+}
+
+#ModalImage #imgGlobal .radius-input {
+  text-align: center;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  width: 40px;
+
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0px 2px;
+  max-width: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #71717175;
+  opacity: 1;
+}
+
+#ModalImage #imgGlobal .rangeInput {
+  background: linear-gradient(to right,
+      #707070 0%,
+      #707070 40%,
+      #fff 40%,
+      #fff 100%);
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+#ModalImage #imgGlobal input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+
+#ModalImage #imgGlobal .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+
+#ModalImage #imgGlobal span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+
+#ModalImage #imgGlobal .input-with-label-pixel {
+  position: relative;
+}
+
+#ModalImage #imgGlobal .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+}
+
+#ModalImage div#imgGlobal {
+  height: 750px;
+}
+
+#ModalImage #coins .radius-input {
+  text-align: center;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  width: 40px;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: 0px 2px;
+  max-width: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #71717175;
+  opacity: 1;
+}
+
+#ModalImage #coins .blockTitle {
+  font: normal normal normal 12px/15px Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+#ModalImage #ModalImage #ModalImage #coins .typeBorder input {
+  display: none;
+}
+
+#ModalImage #coins .RadioInput[type="radio"]+label {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#ModalImage #coins .btntype {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  align-items: center;
+}
+
+#ModalImage #coins .RadioInput[type="radio"]:checked+label {
+  box-shadow: none;
+  background: #B5B5B5;
+  color: #000;
+}
+
+
+#ModalImage #OmbreConfig .typeOmbreConfig input {
+  display: none
+}
+
+#ModalImage #OmbreConfig .typeOmbreConfig {
+  position: relative;
+
+}
+
+#ModalImage #OmbreConfig .btntype {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+
+}
+
+#ModalImage #OmbreConfig .btntype.insettype:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 18px;
+  width: 18px;
+  box-shadow: inset 0px 0px 5px grey;
+  border-radius: 5px;
+}
+
+#ModalImage #OmbreConfig .titleSize {
+  font: normal normal normal 12px/15px Montserrat;
+}
+
+#OmbreConfig label.form-check-label {
+  font: normal normal normal 12px/15px Montserrat;
+}
+
+#ModalImage #OmbreConfig .btntype.outsettype:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 18px;
+  width: 18px;
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 5px;
+}
+
+#ModalImage #OmbreConfig .RadioInput[type="radio"]+label {
+  cursor: pointer;
+  ;
+
+  border-radius: 5px;
+
+}
+
+#ModalImage #OmbreConfig .RadioInput[type="radio"]:checked+label {
+  box-shadow: none;
+  background: #B5B5B5;
+}
+
+#ModalImage #OmbreConfig .input-with-label-pixel {
+  position: relative;
+
+}
+
+#ModalImage #OmbreConfig .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+#ModalImage #OmbreConfig span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+
+#ModalImage #OmbreConfig input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+
+#ModalImage #OmbreConfig .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#ModalImage span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ModalImage .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+#ModalImage #widthConfig .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 100px;
+  display: inline-block;
+}
+
+#ModalImage #OmbreConfig .rangeInput {
+  background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+#ModalImage #OmbreConfig .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #000;
+  border: 1px solid #707070
+}
+
+#ModalImage .file-upload {
+  background: #f6c344;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+  margin: 10px auto 21px;
+}
+
+#ModalImage .file-upload input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+#ModalImage .biblio_image {
+  height: 415px;
+  overflow: scroll;
+}
+#ModalImage .biblio_image .gallery-item {
+  background-position: 50%!important;
+  background-size: cover!important;
+  border: 2px solid #f6c344;
+  border-radius: 5px;
+  height: 90px;
+  width: 45%;
+  background-repeat: no-repeat!important;
+}
+
+#ModalImage .biblio_image .gallery-item i {
+  background: #f6c344;
+  border-radius: 1px 0px 0px 0px;
+  color: #2f373a;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 11px;
+}
+
+#ModalImage .setting.models {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+#ModalImage .supplien {
+  text-decoration: underline;
+  margin: 0 0 5px 2px;
+}
+
+#ModalImage .supplien:hover {
+  text-decoration: none;
+}

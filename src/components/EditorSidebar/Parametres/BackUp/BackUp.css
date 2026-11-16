@@ -1,0 +1,202 @@
+div#InfoBackUp button.btn.btn-rounded.send {
+  background: #F6C344;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #F6C344;
+  padding: 5px;
+}
+div#InfoBackUp button.btn.btn-rounded.rest {
+  background: #ffffff;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #cbc9c9;
+  border-color: #cbc9c9;
+  padding: 5px;
+}
+div#InfoBackUp button.btn.btn-rounded.redirectionAction:hover {
+  background: #343434;
+  border-color: #343434;
+}
+div#InfoBackUp button.btn.btn-rounded.redirectionAction.delete {
+  background: rgb(184, 38, 0);
+  border-color: rgb(184, 38, 0);
+}
+div#InfoBackUp button.btn.btn-rounded.reset {
+  background: transparent;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #cbc9c9;
+  border-color: #cbc9c9;
+  padding: 5px;
+}
+
+div#InfoBackUp span.test-aide {
+  text-align: justify;
+  font: normal normal 300 12px/14px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 5px auto;
+}
+
+div#InfoBackUp button.btn.btn-rounded.redirection {
+  background: #F6C344;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #F6C344;
+  padding: 5px;
+  margin: 0 2px;
+}
+
+div#InfoBackUp button.btn.btn-rounded.redirectionAction{
+  background: #F6C344;
+  text-align: center;
+  font: normal normal bold 11px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #F6C344;
+  padding: 5px;
+  margin: 0 2px;
+}
+#InfoBackUp td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: 'Montserrat';
+  letter-spacing: 0px;
+  color: #353535;
+  opacity: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+#InfoBackUp td span {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 165px;
+  margin: 0 auto;
+}
+div#InfoBackUp b {
+  color: #f6c344;
+  font-weight: bold;
+}
+.modalRestauration .titre_popup_add_page {
+  color: white;
+  font-size: 14px;
+}
+.modalRestauration button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+.modalRestauration .modal_header_add_page {
+  background: transparent;
+  font: normal normal 600 21px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  text-align: justify;
+}
+.modalRestauration .add_page_modal_content .addPageOptions {
+  width: 100%;
+  padding-right: 0;
+}
+.modalRestauration .add_page_modal_content .addPageOptions .add_Page_Options_title {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  margin: 0 auto;
+}
+.modalRestauration .add_page_modal_content {
+  padding: 15px;
+}
+.modalRestauration.modal.show .modal-dialog {
+  max-width: 568px;
+}
+.modalRestauration .modal_header_add_page i {
+  position: absolute;
+  right: 15px;
+  top: 27px;
+  color: #353535;
+  cursor: pointer;
+}
+.modalRestauration .titre_popup_add_page {
+  margin-left: 6px;
+}
+.modalRestauration div#addPageModal .modal-body {
+  background: transparent;
+  padding: 17px;
+}
+.modalRestauration button.btn.btn-rounded.btn-outline-secondary {
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  border-radius: 50px;
+}
+.modalRestauration button.btn.btn-rounded.btn.btn-outline-secondary.delete {
+  background: rgb(184, 38, 0);
+  border-color: rgb(184, 38, 0);
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+
+}
+.modalRestauration button.btn.btn-rounded.btn.btn-outline-secondary.restaurer {
+  background: rgb(246 195 68);
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: rgb(246 195 68);
+}
+.modalRestauration button.btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+div#InfoBackUp th {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: 'Montserrat';
+  letter-spacing: 0px;
+  color: #353535;
+  opacity: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+div#InfoBackUp #table-wrapper {
+  position:relative;
+}
+div#InfoBackUp #table-scroll {
+  height: 481px;
+  overflow: auto; 
+}
+div#InfoBackUp #table-wrapper table {
+  width:100%;
+
+}
+
+div#InfoBackUp #table-scroll thead tr {
+  width: 100%;
+  white-space: pre-wrap;
+  background-color: #ededed;
+  position: sticky;
+  top: 0;
+}

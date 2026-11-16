@@ -1,0 +1,609 @@
+#ModalButton .modal-content {
+  background: #dddddd;
+}
+#ModalButton .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+#ModalButton .nav-link.tt {
+  color: #eee;
+}
+#ModalButton .nav-link.tt.active,
+#ModalButton .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+#ModalButton .nav-link.tt.active {
+  color: #f6c344;
+}
+
+div#ModalButton .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ModalButton button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+#ModalButton .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+#ModalButton span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+#ModalButton .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+#ModalButton div#selecteditem {
+  height: 150px;
+  overflow-y: scroll;
+}
+div#selecteditem .gallery-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#ModalButton .firstdiv {
+  margin: 30px 0;
+  background: #fff;
+  padding: 10px;
+}
+#ModalButton .scrolly {
+  overflow: scroll;
+  height: 200px;
+}
+#ModalButton .firstdivplus {
+  margin: 0px 0;
+  background: #fff;
+  padding: 10px;
+}
+#ModalButton span.titre {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+#ModalButton .btnanimations button.btn.btn-light {
+  margin: 4px 2px;
+  font-size: 12px;
+  box-shadow: 1px 1px 0px 0px #ddd1d1;
+}
+#ModalButton .form-check-input:checked {
+  background-color: #90e192 !important;
+  border-color: #90e192 !important;
+}
+#ModalButton input[type="radio" i] {
+  visibility: hidden !important;
+}
+
+#Button input[type="radio"] + label {
+  border: 1px solid #b5b5b5;
+}
+#Button input[type="radio"]:checked + label {
+  border: 2px solid #000000 !important;
+}
+div#Button.setting {
+  height: 400px;
+  overflow: scroll;
+}
+.models a.active {
+  border: 2px solid #f6c344 !important;
+}
+
+#ModalButton input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+
+#ContModalButtonentGl .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+#ModalButton .input-with-label-pixel {
+  position: relative;
+}
+#ContentGl .form-control {
+  border: 1px solid #b3b3b3;
+}
+#ModalButton span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ModalButton .iconPreview {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #b7b7b7;
+}
+#ModalButton .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  box-shadow: none;
+  border: 1px solid gray;
+}
+#ModalButton .rangeInput {
+  background: #707070;
+  border: solid 1px #707070;
+  border-radius: 8px;
+  height: 4px;
+  max-width: 200px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#ModalButton .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+}
+#ModalButton .models-button {
+  background: rgb(212, 212, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#ModalButton .models-list,
+#ModalButton .icon-list {
+  position: absolute;
+  top: 0px;
+  right: -350px;
+  width: 400px;
+  background: white;
+  box-shadow: 2px 2px 5px #c5c5c5;
+}
+#ModalButton .icon-list .iconsList {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+#ModalButton .icon-list .icon {
+  font-size: 30px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 7px;
+  cursor: pointer;
+}
+#ModalButton .icon-list .icon:hover {
+  color: #f6c344;
+}
+#contenu input[type="radio" i] {
+  visibility: visible !important;
+}
+#ModalButton .scrollspy-example {
+  height: 400px;
+  overflow-y: scroll;
+}
+#ModalLien .accordion-item {
+  border: 0;
+}
+#ModalLien .accordion-body {
+  padding: 0;
+}
+#ModalLien button.accordion-button:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#ModalLien .RadioInput[type="checkbox"]:checked + label {
+  background-color: #b5b5b5;
+  color: white;
+}
+
+#ModalLien .RadioLabel {
+  text-align: center;
+  padding: 2px 7px;
+  margin-left: 2px;
+  font-weight: 600;
+  border: 1px solid #c6c6c6;
+  color: #7d7d7d;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.RadioInput {
+  display: none;
+}
+.RadioInput {
+  background-color: gray;
+  color: white;
+}
+.RadioInput:checked + label {
+  background-color: #b5b5b5;
+  color: white;
+}
+#ModalLien button.accordion-button {
+  display: block;
+  position: relative;
+  padding-top: 0px;
+  background: none;
+}
+#ModalLien ul.nav.nav-tabs .nav-link {
+  width: 100%;
+  border: 0px;
+}
+#ModalLien button.accordion-button.text-center {
+  box-shadow: none;
+  background: none;
+}
+#ModalLien ul.nav.nav-tabs .nav-link.active {
+  width: 100%;
+  border-bottom: 1px solid #353535 !important;
+}
+#ModalLien ul.nav.nav-tabs li {
+  width: 50%;
+}
+#ModalLien ul.nav.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+}
+#ModalLien .modal-title.h4 {
+  background: transparent;
+  font: normal normal 600 21px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+}
+.handleDrag {
+  cursor: grab;
+}
+.setting-title {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.setting {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+.models-button {
+  background: rgb(212, 212, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.models-list {
+  position: absolute;
+  top: 0px;
+  right: -350px;
+  width: 400px;
+  background: white;
+  box-shadow: 2px 2px 5px #c5c5c5;
+}
+/******************** models styling ***********************/
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 5px;
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+
+/* stroke */
+nav.stroke-effect ul li a,
+nav.fill-effect ul li a {
+  position: relative;
+}
+
+nav.stroke-effect ul li a:after,
+nav.fill-effect ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: black;
+  height: 2px;
+}
+nav.stroke-effect ul li a:hover:after,
+nav.stroke-effect ul li a.active:after {
+  width: 100%;
+}
+
+nav.fill-effect ul li a {
+  transition: all 2s;
+}
+
+nav.fill-effect ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+nav.fill-effect ul li a:hover,
+nav.fill-effect ul li a.active {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill-effect ul li a:hover:after,
+nav.fill-effect ul li a.active:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/* Circle */
+nav.circle-effect ul li a {
+  position: relative;
+  overflow: hidden;
+
+  z-index: 1;
+}
+nav.circle-effect ul li a:after {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: ".";
+  color: transparent;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: transparent;
+}
+nav.circle-effect ul li a:hover,
+nav.circle-effect ul li a.active {
+  color: white;
+}
+nav.circle-effect ul li a:hover:after,
+nav.circle-effect ul li a.active:after {
+  -webkit-animation: circle 1.5s ease-in forwards;
+}
+
+/* SHIFT */
+nav.shift-effect ul li a {
+  position: relative;
+  z-index: 1;
+}
+nav.shift-effect ul li a:hover,
+nav.shift-effect ul li a.active {
+  color: white;
+}
+nav.shift-effect ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: #000000;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift-effect ul li a:hover:after,
+nav.shift-effect ul li a.active:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+div#Stylelien {
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+nav.bordred-effect ul li a:before,
+nav.bordred-effect ul li a:after {
+  content: "";
+  height: 1px;
+  width: 0;
+  opacity: 0;
+  background-color: #000000;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+nav.bordred-effect ul li a:before {
+  top: 6px;
+  left: -5px;
+}
+
+nav.bordred-effect ul li a:after {
+  bottom: 5px;
+  right: -5px;
+}
+
+nav.bordred-effect ul li a:hover:before,
+nav.bordred-effect ul li a.active:before,
+nav.bordred-effect ul li a:hover:after,
+nav.bordred-effect ul li a.active:after {
+  width: calc(100% + 20px);
+  opacity: 0.7;
+}
+
+/* HOVER EFFECT 4 */
+
+nav.catched-effect ul li a:before {
+  content: "[";
+  left: -5px;
+}
+
+nav.catched-effect ul li a:after {
+  content: "]";
+  right: -5px;
+}
+
+nav.catched-effect ul li a:before,
+nav.catched-effect ul li a:after {
+  position: absolute;
+  opacity: 0;
+  color: #000000;
+  top: 10px;
+  transition: all 0.5s;
+}
+
+nav.catched-effect ul li a:hover:before,
+nav.catched-effect ul li a.active:before,
+nav.catched-effect ul li a:hover:after,
+nav.catched-effect ul li a.active:after {
+  opacity: 0.7;
+}
+
+nav.catched-effect ul li a:hover:before,
+nav.catched-effect ul li a.active:before {
+  left: -5px;
+}
+
+nav.catched-effect ul li a:hover:after,
+nav.catched-effect ul li a.active:after {
+  right: -5px;
+}
+
+/* Keyframes */
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #333;
+  }
+}
+
+/* Keyframes */
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #333;
+  }
+}
+
+/* Keyframes */
+@-webkit-keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: #eee;
+    border-radius: 100%;
+  }
+  100% {
+    background: #aaa;
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+} /* Keyframes */
+@keyframes circle {
+  0% {
+    width: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    z-index: -1;
+    background: rgb(125, 125, 125);
+    border-radius: 100%;
+  }
+  100% {
+    background: black;
+    height: 5000%;
+    width: 5000%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+}

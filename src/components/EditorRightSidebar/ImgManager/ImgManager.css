@@ -1,0 +1,238 @@
+div#offcanvasImg.show, div#offcanvasImg.offcanvas.show {
+    top: 5%!important;
+    background: #353535!important;
+}
+
+.offcanvas-backdrop {
+    background-color: #0000;
+}
+
+div#offcanvasImg .offcanvas-header {
+    display: flex;
+    align-items: end;
+    justify-content: end
+}
+div#offcanvasImg button.btn-close.text-reset {
+    margin: 0px !important;
+
+}
+div#offcanvasImg .titleImg{
+font: normal normal normal 10px/13px Montserrat;
+letter-spacing: 0px;
+color: #B5B5B5;
+opacity: 1;
+text-align: left;
+display: block;
+}
+ul.image-tabs li {
+    width: 33%;
+}
+ul.image-tabs li button {
+    width: 100%;
+}
+div#offcanvasImg .titleImg img {
+    margin-right: 10px;
+}
+div#offcanvasImg  span.sourceImg {
+    text-align: left;
+    font: normal normal bold 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #B5B5B5;
+    opacity: 1;
+    display: block;
+}
+
+div#offcanvasImg .ModalChabgeImg {
+    background: #4A4A4A 0% 0% no-repeat padding-box;
+    position: relative;
+    padding-bottom: 25px;
+    min-height: 155px;
+}
+.footerDrop {
+    background: #818181 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    width: 100%;
+}
+div#offcanvasImg  span.d-block.titleimg {
+    text-align: center;
+    font: normal normal normal 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #B5B5B5;
+    opacity: 1;
+}
+div#offcanvasImg  .footerDrop span {
+    text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #fff9;
+    opacity: 1;
+}
+div#offcanvasImg .ModalChabgeImg img {
+    border: 1px solid #707070;
+    /* width: 111px; */
+    height: auto;
+    margin: 0 auto;
+    max-height: 80px;
+    max-width: 120px;
+    height: auto;
+}
+div#offcanvasImg  .titleLink{
+    color:white;
+}
+.titleAlt{
+    font: normal normal normal 12px/15px Montserrat;
+    color: white;
+}
+div#offcanvasImg  .dropstart i.dropdown-toggle-btn::after {
+    position: absolute;
+    display: inline-block;
+    margin-left: 0px;
+    left: -136px;
+    width: 14px;
+    height: 16px;
+    top: -5px;
+    vertical-align: middle;
+    content: "";
+    background:url("../../../assets/imgManager/arrowleft.svg") no-repeat;
+    cursor: pointer;
+    border: none;
+    background-size: 100% 100%;
+}
+
+div#offcanvasImg ul.dropdown-menu.preview-options li button {
+    padding: 5px!important;
+    width: 117px;
+    display: block;
+    margin: 0 auto!important;
+    border:1px solid #B5B5B5;
+}
+div#offcanvasImg ul.dropdown-menu {
+    transform: translate(-162px, -42px)!important;
+    background: #717171 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #00000029;
+    border: 1px solid #353535;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+div#offcanvasImg ul.dropdown-menu::before {
+    content: "";
+    background: url("../../../assets/imgManager/arrowDropleft.png"); background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 152px;
+    top: 30px;
+    vertical-align: middle;
+    z-index: 111;
+}
+div#offcanvasImg  .imgpreview {
+    cursor: pointer;
+    border: none;
+    }
+div#offcanvasImg .btn-group.dropend li {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+div#offcanvasImg .btn-group.dropstart {
+    margin: 10% auto;
+    float: none;
+}
+div#offcanvasImg .btn-group, .btn-group-vertical {
+    position: relative;
+    /* display: inline-flex; */
+    vertical-align: middle;
+}
+div#offcanvasImg .offcanvas-body {
+    display: block;
+}
+div#offcanvasImg .btn-group.dropstart ul.dropdown-menu.show li{
+    margin: 0 auto;
+    text-align: center;
+}
+#offcanvasImg .offcanvas-body {
+    flex-grow: 1;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    overflow: visible;
+}
+#offcanvasImg .preview-block {
+    height: 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 6px 8px -5px #4b4b4b;
+}
+
+
+#offcanvasImg img.img.preview {
+    height: auto;
+    max-height: 80px;
+    max-width: 120px;
+}
+#offcanvasImg  .img.rectange {
+    width: 80px;
+    height: 80px;
+    background: #717171 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    opacity: 1;
+}
+
+#offcanvasImg   .img.cercle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: #717171 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    opacity: 1;
+}
+#offcanvasImg   .offcanvas {
+    top: 5%!important;
+    background: #353535!important;
+}
+#offcanvasImg  .uploade img {
+    width: 145px;
+}
+#offcanvasImg  .uploade {
+    width: 522px;
+    background: #353535 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+div#offcanvasImg .footerDrop span {
+    text-align: center;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #fff9;
+    opacity: 1;
+    display: block;
+    padding: 5px 0px;
+}
+#offcanvasImg .colorPreview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+#offcanvasImg .sketch-picker.active {
+    display: block;
+}
+#offcanvasImg span.color-value {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 3px;
+    border-radius: 2px;
+    border: 1px solid rgb(112 112 112 / 35%);
+}
+#offcanvasImg .managerBlock {
+    overflow: scroll;
+    height: 345px;
+}

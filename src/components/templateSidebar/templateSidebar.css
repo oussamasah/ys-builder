@@ -1,0 +1,92 @@
+.templatePane .tmpSidebar {
+  padding: 18px 0px 0px 17px;
+  margin: 70px auto;
+}
+
+.templatePane .titreSidebar span {
+  font: normal normal bold 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  text-transform: uppercase;
+  opacity: 1;
+  padding: 0px 0px 0px 11px;
+  border-left: 5px solid #f6c344;
+  margin-left: 0;
+}
+.templatePane .Modelssites {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 4px #00000029;
+  opacity: 1;
+  padding: 27px 27px 0px 0px;
+  border-radius: 20px;
+  margin: 5% auto;
+  /* height: 463px; */
+}
+.templatePane .actiSidebar ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.templatePane .actiSidebar ul li span {
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #353535;
+  margin-bottom: 0;
+}
+.templatePane .Models ul {
+  text-align: justify;
+  list-style: none;
+}
+.templatePane .Models ul li span {
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #353535;
+  opacity: 1;
+  cursor: pointer;
+}
+.templatePane .actiSidebar {
+  padding: 0 32px;
+  margin: 13% auto 6% auto;
+}
+.templatePane .borders {
+  border: 1px dashed #eee;
+  text-align: center;
+  margin: 30px 11px 0px 32px;
+  display: block;
+}
+.templatePane .actiSidebar span {
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0.4px;
+  opacity: 1;
+  text-align: justify;
+  display: block;
+}
+.templatePane .templatePane .actiSidebar ul li.voirPlus span {
+  text-align: left;
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #f6c344;
+  padding: 0 14px;
+  cursor: pointer;
+}
+.templatePane .ListColeur span {
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin: 0 6px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+}
+.templatePane .ListColeur span.ListColeur-1 {
+  border: 1px solid #707070;
+  width: 18px;
+  height: 18px;
+  margin: -2px 0px 0px -2px;
+  display: block;
+}
+.templatePane .ListColeur {
+  text-align: justify;
+  margin: 0px 0px 0px 28px;
+}

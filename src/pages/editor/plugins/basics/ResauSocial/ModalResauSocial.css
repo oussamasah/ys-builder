@@ -1,0 +1,461 @@
+#ModalAddSocial .drop-zone {
+  width: 100%;
+  height: 92px;
+  margin-bottom: 15px;
+  background: white;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: gray;
+}
+#ModalAddSocial sup.selecterd {
+  top: 12px;
+  background: #f6c344;
+  border-radius: 46%;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ModalAddSocial .raduiss input[type=number] {
+  text-align: center;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+  width: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+/* #ModalAddSocial  .configsSocials .Color {
+  display: none!important;
+} */
+#ModalAddSocial .configsSocials .Police, #ModalAddSocial .configsSocials .Epaisseur, #ModalAddSocial .configsSocials .orientation {
+  display: none!important;
+}
+#ModalAddSocial sup {
+  top: 12px;
+  background: #e5e8e9;
+  border-radius: 46%;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#ModalAddSocial .grids {
+  font-size: 30px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 7px;
+  cursor: pointer;
+}
+#ModalAddSocial .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+span.color-value {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 3px;
+}
+#ModalAddSocial .gallery-item i.fa-trash-alt {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+  background: white;
+  display: none;
+}
+
+#ModalAddSocial .gallery-item i.fa-check-circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #098201;
+  cursor: pointer;
+  background: white;
+}
+#ModalAddSocial .gallery-item:hover i {
+  display: block;
+}
+#ModalAddSocial input#inputId {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(219 219 219);
+  width: 100%;
+  margin: 10px 0px;
+}
+span.tag-wrapper.ReactTags__tag {
+  background: #353535;
+  color: white;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 4px 4px;
+  border-radius: 7px;
+}
+span.tag-wrapper.ReactTags__tag button {
+  background: none;
+  color: white;
+  border: none;
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: absolute;
+}
+div.ReactTags__suggestions ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+div.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+#madalsocial.input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+#madalsocial.form-control{
+  /* border: none; */
+  font-size: 12px;
+  color: #717171;
+}
+
+#madalsocial .input-with-label-pixel {
+  position: relative;
+}
+#madalsocial .Designe {
+  font-size: 20px;
+  font-weight: bold;
+}
+#madalsocial .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+  border: 1px solid #ced4da;
+}
+
+
+#ModalAddSocial input.form-control.form-control-sm.input-small-pixel {
+  border: 1px solid #ced4da
+}
+#ModalAddSocial  .input-with-label-pixel {
+  position: relative;
+}
+#ModalAddSocial span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ModalAddSocial .scrolly{
+  overflow: scroll;
+  height: 200px;
+}
+#ModalAddSocial div#selecteditem {
+  height: 150px;
+  overflow-y: scroll;
+}
+#ModalAddSocial .firstdiv {
+  margin: 30px 0;
+  background: #fff;
+  padding: 10px;
+}
+#ModalAddSocial .firstdivplus {
+  margin: 0px 0;
+  background: #fff;
+  padding: 10px;
+}
+
+div#selecteditem a.nav-link {
+  color: #2f373a;
+}
+div#selecteditem span.title-popups {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 12px;
+  background: #2f373a;
+  color: #eee;
+}
+div#ModalAddSocial.modal-xs {
+  left: 16%;
+}
+div#ModalAddSocial .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#ModalAddSocial span.noticetext {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+}
+div#selecteditem  .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0 5px;
+}
+div#selecteditem .gallery-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ModalAddSocial  .btn-group.dropend {
+  font-size: 25px;
+  cursor: pointer;
+}
+#ModalAddSocial input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#ModalAddSocial .rangeInput {
+  background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#ModalAddSocial input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#ModalAddSocial .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+#ModalAddSocial .nav-link.tt.active, #ModalAddSocial .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+#ModalAddSocial button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+#ModalAddSocial div#nav-tab {
+  border: none;
+}
+ #ModalAddSocial .nav-link.tt {
+color:#eee;
+}
+#ModalAddSocial .nav-link.tt.active {
+  color: #f6c344;
+}
+#ModalAddSocial .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#ModalAddSocial  span.titre {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+#ModalAddSocial .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border:1px solid #707070;
+  cursor: pointer;
+}
+#ModalAddSocial  span.titredropdown{
+  display: block;
+  font-size: 15px;
+}
+#ModalAddSocial  .list {
+  overflow: scroll;
+  height: 200px;
+}
+#ModalAddSocial .list li.selecterd{
+  border: 1px solid #f6c344;
+  margin: 0 4px;
+}
+#ModalAddSocial .list li {
+  border: 1px solid #e5e8e9;
+  margin: 0 4px;
+}
+#ModalAddSocial img.img.imgReseau {
+  width: 223px;
+  margin: 0 4px;
+}
+
+#ModalAddSocial .disabled.grids {
+  color: #eee;
+  cursor: not-allowed;
+
+}
+div#ModalAddSocial {
+  top: 12%;
+}
+div#ModalAddSocial ul.listaide {
+  list-style: none;
+  padding: 0;
+}
+div#ModalAddSocial ul.listaide li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px;
+}
+div#ModalAddSocial span.liss {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #f6c344;
+  text-align: center;
+  border-radius: 50px;
+}
+div#ModalAddSocial span.aide {
+  padding: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+#ModalAddSocial .btnanimations button.btn.btn-light {
+  margin: 4px 2px;
+  font-size: 12px;
+  box-shadow: 1px 1px 0px 0px #ddd1d1;
+}
+#ModalAddSocial .nav-pills .nav-link {
+  color: #2f373a;
+  padding: 10px 3px;
+}
+#ModalAddSocial .modal-body {
+  display: block; 
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+#ModalAddSocial span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+#ModalAddSocial .scale.btn.btn-light{-webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s; }
+ .scale.btn.btn-light:hover {-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1); }
+
+    #ModalAddSocial .rotation.btn.btn-light{   transition: 0.70s;
+      -webkit-transition: 0.70s;
+      -moz-transition: 0.70s;
+      -ms-transition: 0.70s;
+      -o-transition: 0.70s; }
+      #ModalAddSocial  .rotation.btn.btn-light:hover {   transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+
+      #ModalAddSocial  .flip.btn.btn-light{ 
+        transform: scale(.75);
+     -webkit-transform: scale(.75);
+     -ms-transform: scale(.75);
+     transform-style: preserve-3d; }
+       .flip.btn.btn-light:hover {    
+         transition: all 2s;
+         -webkit-transform: rotateY(180deg);
+             -ms-transform: rotateY(180deg);
+             transform: rotateY(180deg);
+       }
+
+       #ModalAddSocial  .zoomout.btn.btn-light {     transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s; }
+        #ModalAddSocial .zoomout.btn.btn-light:hover {
+          transition: all 1s;
+          transform: scale(.5);;
+        }
+        #ModalAddSocial  .leftright.btn.btn-light {    transition: 0.70s;
+          -webkit-transition: 0.70s;
+          -moz-transition: 0.70s;
+          -ms-transition: 0.70s;
+          -o-transition: 0.70s; }
+          #ModalAddSocial  .leftright.btn.btn-light:hover {    
+              transition: all 1s;
+            transform: scaleX(1.5);
+          }

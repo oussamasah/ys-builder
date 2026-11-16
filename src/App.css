@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.modal{
+  background-color: rgba(40, 44, 52, 0.709);
+  
+}
+
+.modal-header{
+border-top-left-radius: 12px!important;
+border-top-right-radius: 12px!important;
+box-shadow: none!important;
+}
+.modal-content{
+  border-radius: 15px!important;
+  box-shadow: none!important;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.ace_editor {
+  border-radius: 11px;
+}
+.react-joyride__overlay {
+  min-height: 1360px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*  Debut Style  modal */
+.modal.show .modal-dialog {
+  transform: none;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.modal-title.h4 {
+  background: transparent;
+  font: normal normal 600 21px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  text-align: justify;
+}
+.modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+}
+.modal-footer .btn.btn-secondary {
+  background: #353535 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #353535;
+}
+.modal-header {
+  background: #f9f9f9;
+  padding: 13px;
+  border-radius: 11px 11px 0px 0px;
+  border: none;
+}
+.modal-footer .btn.btn-primary {
+  background: #f6c344 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #f6c344;
+}
+.modal.show .modal-footer {
+  border: none;
+}
+.modal.show .form-control {
+  border-bottom: 1px solid #ced4da;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+}
+/*  Fin  Style  modal */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

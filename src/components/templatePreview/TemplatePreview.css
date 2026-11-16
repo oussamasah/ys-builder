@@ -1,0 +1,41 @@
+div#templatePreview {
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    display: flex;
+    height: 75vh;
+}
+
+
+div#templatePreview .desktop-preiew {
+    background: url(../../assets/imgSitePreview/desktop.png)no-repeat center center;
+    background-size: contain;
+    width: 45%;
+    height: 575px;
+    overflow-y: scroll;
+    padding: 50px 3px;
+}
+div#templatePreview .tablette-preiew {
+    background: url(../../assets/imgSitePreview/tablette.svg)no-repeat center center;
+    background-size: contain;
+    width: 20%;
+    height: 511px;
+    overflow-y: scroll;
+    padding: 26px 14px;
+}
+div#templatePreview .mobile-preiew {
+    background: url(../../assets/imgSitePreview/mobile.svg)no-repeat center center;
+
+    background-size: contain;
+    width: 12%;
+    height: 473px;
+    overflow-y: scroll;
+    padding: 26px 7px;
+
+}
+div#templatePreview.hide{
+    display:none!important
+}
+div#templatePreview.active{
+    display:flex!important
+}

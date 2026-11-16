@@ -1,0 +1,16 @@
+span.text-oublier.success {
+    font: normal normal normal 14px/18px Montserrat;
+}
+span.text-oublier.success span {
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FF9F00;
+}
+.success img.auth.signin.ob.animate {
+    position: relative;
+    top: 63px;
+    margin: 0% auto 11% auto;
+}
+.success span.footers {
+    margin-top: 3%;
+}

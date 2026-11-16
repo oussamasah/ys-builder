@@ -1,0 +1,77 @@
+.TextImg div {
+    margin: 18px auto;
+}
+.TextImg img:hover {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F6C344;
+    transition: 0.5s;
+}
+.TextImg img {
+    width: 320px;
+    border: 1px solid #cbc9c9;
+}
+.TextImg::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+    display: block!important;
+    width: 9px;
+}
+#myTabContent::-webkit-scrollbar {
+    display: block!important;
+    width: 9px;
+}
+
+.TextImg {
+    height: 75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.TextImg::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+}
+.TextImg::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey;
+}
+.TextImg::-webkit-scrollbar {
+    display: block!important;
+    width: 9px;
+}
+div.TextImg {
+    height: 75%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#widgetsPanel .sectionBlocks {
+    background-size: auto 100%!important;
+    border: 1px solid #cbc9c9;
+    border-radius: 15px;
+    display: block;
+    min-height: 145px;
+    background-repeat: no-repeat!important;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 95%;
+    background-position: center center!important;
+}
+.gjs-block-categories .gjs-block:hover {
+    box-shadow: none;
+}
+.TextImg .gjs-blocks-c .gjs-block {
+    width: 100%;
+    margin: 3px auto!important;
+    height: 150px!important;
+    border: none!important;
+    position: relative!important;
+
+}
+.TextImg .gjs-blocks-c .gjs-block {
+    width: 100%;
+    margin: 3px auto;
+    height: 100%;
+    border: none;
+}

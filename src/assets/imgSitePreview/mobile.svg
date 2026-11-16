@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="391" viewBox="0 0 192 391">
+  <g id="Groupe_7329" data-name="Groupe 7329" transform="translate(-1536 -403)">
+    <g id="Rectangle_850" data-name="Rectangle 850" transform="translate(1536 403)" fill="#cbc9c9" stroke="#707070" stroke-width="1">
+      <rect width="192" height="391" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="191" height="390" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectangle_852" data-name="Rectangle 852" transform="translate(1541 408)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="182" height="381" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="181" height="380" rx="5.5" fill="none"/>
+    </g>
+    <g id="Groupe_7327" data-name="Groupe 7327" transform="translate(409.296 149.296)">
+      <g id="Ellipse_132" data-name="Ellipse 132" transform="translate(1285.704 267.704)" fill="#353535" stroke="#707070" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_134" data-name="Ellipse 134" transform="translate(1287.704 269.704)" fill="none" stroke="#707070" stroke-width="0.3">
+        <circle cx="3" cy="3" r="3" stroke="none"/>
+        <circle cx="3" cy="3" r="2.85" fill="none"/>
+      </g>
+      <circle id="Ellipse_133" data-name="Ellipse 133" cx="2" cy="2" r="2" transform="translate(1286.704 268.704)" fill="#fff" opacity="0.58"/>
+    </g>
+  </g>
+</svg>

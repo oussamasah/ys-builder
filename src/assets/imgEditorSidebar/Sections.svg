@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Groupe_7226" data-name="Groupe 7226" transform="translate(-32 -327.885)">
+    <g id="Groupe_7224" data-name="Groupe 7224">
+      <g id="Rectangle_732" data-name="Rectangle 732" transform="translate(32 327.885)" fill="#fff" stroke="#707070" stroke-width="1.5">
+        <path d="M3,0H14a0,0,0,0,1,0,0V12a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
+        <path d="M3,.75h9.5a.75.75,0,0,1,.75.75v9a.75.75,0,0,1-.75.75H1.5a.75.75,0,0,1-.75-.75V3A2.25,2.25,0,0,1,3,.75Z" fill="none"/>
+      </g>
+      <g id="Rectangle_733" data-name="Rectangle 733" transform="translate(48 327.885)" fill="#fff" stroke="#707070" stroke-width="1.5">
+        <path d="M0,0H7a3,3,0,0,1,3,3v9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1.5.75H7A2.25,2.25,0,0,1,9.25,3v7.5a.75.75,0,0,1-.75.75h-7a.75.75,0,0,1-.75-.75v-9A.75.75,0,0,1,1.5.75Z" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_7225" data-name="Groupe 7225" transform="translate(90 682.77) rotate(180)">
+      <g id="Rectangle_732-2" data-name="Rectangle 732" transform="translate(32 328.885)" fill="#fff" stroke="#707070" stroke-width="1.5">
+        <path d="M3,0H17a0,0,0,0,1,0,0V12a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" stroke="none"/>
+        <path d="M3,.75H15.5a.75.75,0,0,1,.75.75v9a.75.75,0,0,1-.75.75H1.5a.75.75,0,0,1-.75-.75V3A2.25,2.25,0,0,1,3,.75Z" fill="none"/>
+      </g>
+      <g id="Rectangle_733-2" data-name="Rectangle 733" transform="translate(51 328.885)" fill="none" stroke="#707070" stroke-width="1.5">
+        <path d="M0,0H4A3,3,0,0,1,7,3v9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1.5.75H4A2.25,2.25,0,0,1,6.25,3v7.5a.75.75,0,0,1-.75.75h-4a.75.75,0,0,1-.75-.75v-9A.75.75,0,0,1,1.5.75Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

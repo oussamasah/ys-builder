@@ -1,0 +1,4 @@
+.gjs-dashed footer,
+.gjs-dashed header {
+  border: 2px dashed #f6c344 !important;
+}

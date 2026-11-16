@@ -1,0 +1,179 @@
+#btnGL button.nav-link {
+    width: 50%;
+    padding: 8px;
+
+
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #B5B5B5;
+}
+#btnGL button.nav-link.active {
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+}
+#btnGL .previewTitle{
+    text-align: left;
+font: italic normal 400 12px/13px Montserrat;
+
+letter-spacing: 0px;
+
+color: #717171;
+
+}
+#btnGL button#nav-text-tab {
+    border-right: none;
+    border-top-left-radius: 25px;
+}
+
+#btnGL  button#nav-format-tab {
+    border-left: none;
+    border-top-right-radius: 25px;
+}
+/* #btnGL .sketch-picker {
+    display: none;
+    position: absolute;
+
+    right: 0;
+    z-index: 1;
+} */
+
+#btnGL .panelTitle {
+    color:#717171;
+    font: normal normal normal 12px/15px Montserrat;
+}
+#btnGL .colorPreview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+#btnGL .sketch-picker.active {
+    display: block;
+}
+#btnGL span.color-value {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 3px;
+    border-radius: 2px;
+    border: 1px solid rgb(112 112 112 / 35%);
+}
+#btnGL  .preview{
+    min-width: 200px;
+    margin: 0 auto!important;
+}
+#btnGL .dropend .dropdown-toggle::after {
+    position: absolute;
+    display: inline-block;
+    margin-left: 0px;
+    left: 43px;
+    width: 14px;
+    height: 16px;
+    top: -14px;
+    vertical-align: middle;
+    content: "";
+    background:url("../../../../assets/imgBtnGlobal/arrow.svg") no-repeat;
+    cursor: pointer;
+    border: none;
+    background-size: 100% 100%;
+}
+#btnGL  ul.dropdown-menu.preview-options li button {
+    padding: 5px!important;
+    width: 117px;
+    display: block;
+    margin: 0 auto!important;
+    border:1px solid #B5B5B5;
+}
+#btnGL ul.dropdown-menu {
+    position: relative;
+    transform:translate(85px, -50px)!important;
+    border: none;
+    box-shadow: 0px 0px 5px 1px #80808029;
+}
+#btnGL ul.dropdown-menu::before {
+    content: "";
+    background: url("../../../../assets/imgTitles/arrow-left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -21px;
+    top: 34px;
+    vertical-align: middle;
+    z-index: 111;
+}
+
+#btnGL div#nav-text, #btnGL div#nav-format {
+    left: 0;
+    box-shadow: none;
+    padding: 20px;
+    padding-bottom: 0px;
+    height: 85%;
+}
+#btnGL  .preview-options .btn{
+    font-weight: 100;
+}
+#btnGL  .preview-options .btn:hover{
+    font-weight: 100;
+    background:#B5B5B5;
+    color:white;
+}
+#btnGL  .palette_ombre{
+    display:none;
+
+}
+#btnGL  .palette_ombre{
+    display:flex;
+
+}
+#btnGL .btn_manager {
+    
+    overflow-x: scroll;
+    height: 68%;
+}
+.colorpickerOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+
+}
+.inputColor {
+    position: relative;
+
+}
+.sketch-popeover {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+.sketch-cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.sketch-cover2 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.sketch-popeover2 {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+.preview-block {
+    height: 150px;
+  
+}

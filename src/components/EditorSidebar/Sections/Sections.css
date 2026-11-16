@@ -1,0 +1,78 @@
+.SidebarSection div#SubtabSideBar {
+    width: auto;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+    left: 139px;
+    top: 0%;
+    z-index: 9;
+    display: block;
+}
+.gjs-block-label i.deleteSection{
+    position: absolute;
+    top:5px;
+    right:5px;
+    font-size: 25px!important;
+    color:red;
+    cursor:pointer !important;
+    z-index: 5599;
+}
+
+div#SubtabSideBar.tab-content.active {
+    display: block;
+}
+
+div#SubtabSideBar .tab-pane.fade.show {
+    display: block;
+}
+
+.SidebarWidgets .SidebarSection .nav-pills .nav-link.active span {
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #F6C344;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.SidebarWidgets .SidebarSection .nav-pills .nav-link span {
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: justify;
+    margin-left: 12px;
+}
+.SidebarWidgets div.tab-pane.subSection {
+    width: 340px;
+    height: 94.6vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: none;
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+}
+.SidebarWidgets div.tab-pane.subSection .gjs-block {
+    width: 100%;
+    margin: 3px auto;
+}
+div#BlockText {
+    height: 85vh;
+    overflow: scroll;
+}
+
+.AllsectionsModel.SidebarSection {
+    overflow: scroll;
+    height: 82.6vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbc9c945!important;
+    border-radius: 11px!important;
+}
+::-webkit-scrollbar {
+    width: 5px!important;
+
+}

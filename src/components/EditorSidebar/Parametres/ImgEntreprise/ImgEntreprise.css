@@ -1,0 +1,198 @@
+#ImgEntreprise .drop-zone {
+  width: 80%;
+  margin: 0 auto;
+  height: 92px;
+  margin-bottom: 15px;
+  background: white;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: gray;
+}
+#ImgEntreprise div#collapseExample:before {
+  content: '';
+  background: url("../../../../assets/imgMenuSort/arrow-left.png")no-repeat!important;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 49px;
+  right: 289px;
+  transform: rotate(180deg);;
+}
+
+#ImgEntreprise  .collapsing {
+  -webkit-transition: none;
+  transition: none;
+  display: none;
+}
+#ImgEntreprise div#collapseExample {
+  position: absolute;
+  width: 279px;
+  height: auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  transform: translate(576px, 58px);
+  top: 149px!important;
+  min-width: 191px;
+  text-align: center;
+  min-height: 109px;
+  border: none;
+  background-size: 100% 100%!important;
+  box-shadow: 0px 0px 5px #80808057;
+  border-radius: 8px;
+}
+#ImgEntreprise img.thumbnails.info {
+  width: 100%;
+}
+#ImgEntreprise img.thumbnails {
+  width: 80px;
+  max-height: 100px;
+  margin: 2px;
+  border: 1px solid #707070;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+  height: 200px;
+}
+#ImgEntreprise .titleInfo{
+  font: italic normal 300 12px/25px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ImgEntreprise .valueInfo {
+  font: normal normal normal 12px/25px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 98px;
+  text-align: justify;
+  display: block;
+}
+#ImgEntreprise  .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+#ImgEntreprise .gallery_list {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+#ImgEntreprise  .gallery-item i.fa-trash-alt {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+  background: white;
+  display:none
+}
+
+#ImgEntreprise .gallery-item i.fa-check-circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #098201;
+  cursor: pointer;
+  background: white;
+}
+#ImgEntreprise  .gallery-item:hover i {
+
+  display:block
+}
+#ImgEntreprise  input#inputId {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(219 219 219);
+  width: 100%;
+  margin: 10px 0px;
+}
+span.tag-wrapper.ReactTags__tag {
+  background: #353535;
+  color: white;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 4px 4px;
+  border-radius: 7px;
+}
+span.tag-wrapper.ReactTags__tag button {
+  background: none;
+  color: white;
+  border: none;
+
+}
+
+
+
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+    position: absolute;
+}
+div.ReactTags__suggestions ul {
+  margin:0;
+  padding:0px;
+    list-style-type: none;
+    box-shadow: .05em .01em .5em rgba(0,0,0,.2);
+    background: white;
+    width: 200px;
+}
+div.ReactTags__suggestions li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0;
+}
+div.ReactTags__suggestions li mark {
+    text-decoration: underline;
+    background: none;
+    font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+    background: #b7cfe0;
+    cursor: pointer;
+}
+.input-group.serash-media {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-group.serash-media input.form-control {
+border-radius: 23px!important;
+}
+.input-group.serash-media button.iclosed {
+background: #ddd;
+border: none;
+border-radius: 50%!important;
+bottom: 0;
+cursor: pointer;
+display: block;
+font-size: 12px;
+height: 15px;
+line-height: 16px;
+margin: auto;
+outline: none;
+padding: 0;
+position: absolute;
+right: 4px;
+top: 0;
+transition: .1s;
+width: 15px;
+z-index: 9!important;
+}
+
+.infationmedia {
+  display: inline-block;
+  text-align: justify;
+  margin: 0 auto;
+}

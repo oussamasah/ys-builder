@@ -1,0 +1,84 @@
+div#alllist button.accordion-button, div#alllist .accordion-item, div#alllist .accordion-button:not(.collapsed) {
+    background: white;
+    border: none;
+    box-shadow: none;
+    color: #000!important;
+    position: relative;
+}
+div#alllist .nameGroupe {
+    color: #353535;
+    font-weight: bold;
+}
+div#alllist .etatGroupe {
+    color: #353535;
+}
+div#alllist .removeuser {
+    z-index: 999;
+    background: #f6c344;
+    width: 15px;
+    padding: 9px;
+    height: 15px;
+    top: -7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 99%;
+    border-radius: 10px;
+}
+.removeuser i {
+    font-size: 10px;
+    color: #fff;
+}
+div#alllist  button.accordion-button {
+    padding: 10px;
+}
+div#alllist .teamitem {
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    background-color: white;
+    padding: 5px 10px;
+    position: relative;
+}
+div#alllist .accordion-body {
+    margin-top: 0;
+    background: #f9f9f9;
+    padding: 10px 10px;
+}
+ button.btn.addm {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ button.btn.addm:hover{
+    background: transparent;
+    color:#f6c344
+}
+div#alllist button.accordion-button.collapsed.update {
+    background: #eeeeee;
+}
+div#alllist .iconteams {
+    font-size: 19px;
+    position: absolute;
+    left: -10px;
+    color: white;
+    border-radius: 26px;
+    top: -2px;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#alllist .orange{
+    background: #fd7122;
+}div#alllist .blue{
+    background: #15c1bf;
+}div#alllist .violet{
+    background: #ba80ba;
+}div#alllist .yellow{
+    background: #fbba00;
+}

@@ -1,0 +1,15 @@
+#visite .pr-chart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#visite .chart-number {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    top: 37%;
+    font-weight: bold;
+}

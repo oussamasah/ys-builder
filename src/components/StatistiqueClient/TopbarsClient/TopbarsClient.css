@@ -1,0 +1,198 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap);
+.topBar {
+    position: relative;
+    width: 100%;
+    background: #353535;
+    padding: 0px 30px 6px 15px;
+    /* box-shadow: 0px 3px 3px #c3c3c3; */
+}
+img.logo.tobBar {
+    width: 93px;
+    float: left;
+    margin: 7px 0px 0px 0px;
+    display: block;
+
+}
+.search-btn {
+    background: #2d3537;
+    border: 1px solid #2d3537;
+    color: white;
+    min-width: 172px;
+}
+ul.SidebarList a#title,ul.SidebarList li.sub ul a {
+    text-transform: uppercase;
+}
+.search-btn:hover {
+    background: #2d3537b7;
+    color: #ffffff;
+    min-width: 172px;
+}
+ul.SidebarList li.sub ul {
+    display: none;
+}
+ul.SidebarList li.sub:hover ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #353535;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    z-index: 999;
+    border-radius: 0px 0px 10px 10px;
+}
+ul.SidebarList li.sub:hover ul li {
+    margin: 0 auto;
+}
+ul.SidebarList  li.sub ul  a {
+    text-decoration: none;
+    color: #B5B5B5;
+}
+.create-btn {
+    width: 226px;
+    background: #F6C344 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 0px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 11px;
+    float: right;
+}
+.title-liste-site span {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 27px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #353535;
+    margin-bottom: 25px;
+    margin-top: 12px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 0px 0px 11px;
+    border-left: 5px solid #F6C344;
+}
+.create-btn:hover {
+    background: #2d3537b7;
+    color: #ffffff;
+    min-width: 172px;
+}
+ul.SidebarList a#title.active {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+ul.SidebarList a#title {
+    text-decoration: none;
+    color: #B5B5B5;
+}
+ul.SidebarList {
+    margin-bottom: 0;
+}
+ul.SidebarList li {
+    display: inline-block;
+}
+ul.SidebarList li img.icon {
+    margin-right: 6px;
+    vertical-align: sub;
+    display: inline-block;
+}
+.create-btn:hover {
+    background: #F6C344 0% 0% no-repeat padding-box;
+}
+.topBar .dropdown ul li{
+    margin: 0px;
+    padding: 5px 5px;
+
+    display:block;
+}
+.topBar .dropdown ul li a{
+    margin: 0px;
+}
+ul.SidebarList li.sub ul a.active {
+    color: #fff;
+}
+@media(min-width:768px) {
+    ul.SidebarList li {
+        margin: 29px 5px 0px 0px;
+    }
+    .nav-2 nav {
+        margin-left:0%
+    } 
+    ul.SidebarList a#title.active {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    ul.SidebarList a#title {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+@media(min-width:992px) {
+    ul.SidebarList li {
+        margin: 29px 12px 0px 0px;
+    }
+    .nav-2 nav {
+        margin-left: 0;
+    } 
+    ul.SidebarList a#title.active {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    ul.SidebarList a#title {
+        font-size: 16px;
+    }
+}
+@media(min-width:1200px) {
+    ul.SidebarList li {
+        margin: 29px 24px 0px 0px;
+    }
+    .nav-2 nav {
+        margin-left: 13%;
+    }  
+    ul.SidebarList a#title.active {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    ul.SidebarList a#title {
+        font-size: 16px;
+    }
+}
+@media(min-width:1360px) {
+    ul.SidebarList li {
+        margin: 29px 24px 0px 4px;
+    }
+    .nav-2 nav {
+        margin-left: 0%;
+    }  
+    ul.SidebarList a#title.active {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    ul.SidebarList a#title {
+        font-size: 16px;
+    }
+}
+@media(min-width:1920px) {
+    ul.SidebarList a#title.active {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    ul.SidebarList a#title {
+        font-size: 16px;
+    }
+    ul.SidebarList li {
+        margin: 20px 24px 0px 34px
+    }
+    .nav-2 nav {
+        margin-left: 0%;
+    }
+  }

@@ -1,0 +1,44 @@
+#ombreConfig .sketch-cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+#ombreConfig  .btntype {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+#ombreConfig  .RadioInput[type="radio"]:checked+label {
+    box-shadow: none;
+    background: #B5B5B5;
+}
+#ombreConfig  .typeOmbre input {
+    display: none;
+}
+#ombreConfig  .typeOmbre {
+    position: relative;
+}
+#ombreConfig .btntype.outsettype:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 5px;
+}
+#ombreConfig  .btntype.insettype:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    box-shadow: inset 0px 0px 5px grey;
+    border-radius: 5px;
+}

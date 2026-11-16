@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Groupe_7280" data-name="Groupe 7280" transform="translate(-123 -281)">
+    <g id="Groupe_7278" data-name="Groupe 7278" transform="translate(-1 -37)">
+      <g id="Rectangle_556" data-name="Rectangle 556" transform="translate(124 318)" fill="#717171" stroke="#707070" stroke-width="0.3">
+        <rect width="26" height="26" rx="3" stroke="none"/>
+        <rect x="0.15" y="0.15" width="25.7" height="25.7" rx="2.85" fill="none"/>
+      </g>
+    </g>
+    <g id="Groupe_6994" data-name="Groupe 6994" transform="translate(3.448 67.448)">
+      <line id="Ligne_15" data-name="Ligne 15" y2="12.103" transform="translate(126.5 219.5)" fill="none" stroke="#f9f9f9" stroke-linecap="round" stroke-width="1"/>
+      <line id="Ligne_16" data-name="Ligne 16" y2="12.103" transform="translate(138.603 219.5)" fill="none" stroke="#f9f9f9" stroke-linecap="round" stroke-width="1"/>
+      <line id="Ligne_17" data-name="Ligne 17" x2="12.103" transform="translate(126.5 219.5)" fill="none" stroke="#f9f9f9" stroke-linecap="round" stroke-width="1"/>
+      <line id="Ligne_18" data-name="Ligne 18" x2="12.103" transform="translate(126.5 232.603)" fill="none" stroke="#f9f9f9" stroke-linecap="round" stroke-width="1"/>
+      <line id="Ligne_19" data-name="Ligne 19" y2="10.913" transform="translate(132.552 221.095)" fill="none" stroke="#f9f9f9" stroke-width="0.5" stroke-dasharray="1 1"/>
+      <g id="Groupe_7279" data-name="Groupe 7279">
+        <line id="Ligne_20" data-name="Ligne 20" x1="10.989" transform="translate(127.057 225.552)" fill="none" stroke="#f9f9f9" stroke-width="0.5" stroke-dasharray="1 1"/>
+      </g>
+    </g>
+  </g>
+</svg>

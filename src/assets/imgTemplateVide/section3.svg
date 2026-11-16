@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150">
+  <g id="Groupe_7230" data-name="Groupe 7230" transform="translate(-150 -128)">
+    <g id="Rectangle_735" data-name="Rectangle 735" transform="translate(150 128)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="320" height="150" stroke="none"/>
+      <rect x="0.15" y="0.15" width="319.7" height="149.7" fill="none"/>
+    </g>
+    <text id="Titre_du_bloc" data-name="Titre du bloc" transform="translate(211 152)" fill="#717171" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-33.337" y="0">Titre du bloc</tspan></text>
+    <text id="Sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium_totam_rem." data-name="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem." transform="translate(173 168)" fill="#717171" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="11">Sed ut perspiciatis unde omnis </tspan><tspan x="0" y="23">iste natus error sit voluptatem </tspan><tspan x="0" y="35">accusantium doloremque </tspan><tspan x="0" y="47">laudantium, totam rem.</tspan></text>
+    <g id="Groupe_7228" data-name="Groupe 7228" transform="translate(173)">
+      <g id="Rectangle_736" data-name="Rectangle 736" transform="translate(204 243)" fill="#fff" stroke="#707070" stroke-width="0.5">
+        <rect width="70" height="20" rx="5" stroke="none"/>
+        <rect x="0.25" y="0.25" width="69.5" height="19.5" rx="4.75" fill="none"/>
+      </g>
+      <text id="En_savoir_plus" data-name="En savoir plus" transform="translate(239 256)" fill="#717171" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="-24.111" y="0">En savoir plus</tspan></text>
+    </g>
+    <text id="Sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium_totam_rem.-2" data-name="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem." transform="translate(319 168)" fill="#717171" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="11">Sed ut perspiciatis unde omnis </tspan><tspan x="0" y="23">iste natus error sit voluptatem </tspan><tspan x="0" y="35">accusantium doloremque </tspan><tspan x="0" y="47">laudantium, totam rem.</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+#EditRole button.adM {
+    border: 1px solid #dee2e6;
+    background: #fff;
+    color: #bdbdbd;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
+#EditRole .itemGroupe {
+    display: flex;
+    margin: 10px auto;
+
+}
+#EditRole .IconGroupe span {
+    background-color: white;
+    font-size: 38px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+#EditRole .suite .plus {
+    margin-left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: all 1s ease;
+    display: none;
+}
+
+#EditRole .AllGroupe.container {
+    position: relative;
+}
+
+
+#EditRole .suite:hover .plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+    background: white;
+    transition: all 1s ease;
+    border: none;
+    box-shadow: 0px 0px 5px #eee;
+    position: absolute;
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 250px;
+    margin-left: 200px;
+    z-index: 999;
+}
+#EditRole .suite span {
+    display: block;
+    font-size: 14px;
+    padding: 0 5px;
+}
+#EditRole span.titlegroupe {
+    display: block;
+    font-weight: 900;
+}
+#EditRole .contentGroupe {
+    padding: 4px 0;
+    border: 2px solid #eee;
+    border-radius: 0px 10px 10px 0px;
+    background: #fff;
+    text-overflow: ellipsis;
+    white-space: inherit;
+    height: 122px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+#EditRole .IconGroupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px 0px 0px 7px;
+}

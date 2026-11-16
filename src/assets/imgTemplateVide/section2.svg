@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="150" viewBox="0 0 320 150">
+  <g id="Groupe_7229" data-name="Groupe 7229" transform="translate(-150 -128)">
+    <g id="Rectangle_735" data-name="Rectangle 735" transform="translate(150 128)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="320" height="150" stroke="none"/>
+      <rect x="0.15" y="0.15" width="319.7" height="149.7" fill="none"/>
+    </g>
+    <g id="Icon_feather-image" data-name="Icon feather-image" transform="translate(324.559 137)">
+      <path id="Tracé_10191" data-name="Tracé 10191" d="M19.679,3h93.914a16.7,16.7,0,0,1,16.679,16.679v93.914a16.7,16.7,0,0,1-16.679,16.679H19.679A16.7,16.7,0,0,1,3,113.592V19.679A16.7,16.7,0,0,1,19.679,3Zm93.914,120.746a10.165,10.165,0,0,0,10.154-10.154V19.679A10.165,10.165,0,0,0,113.592,9.525H19.679A10.166,10.166,0,0,0,9.525,19.679v93.914a10.165,10.165,0,0,0,10.154,10.154Z" transform="translate(0 0)" fill="#b5b5b5"/>
+      <path id="Tracé_10192" data-name="Tracé 10192" d="M22.324,9A13.324,13.324,0,1,1,9,22.324,13.34,13.34,0,0,1,22.324,9Zm0,20.124a6.8,6.8,0,1,0-6.8-6.8A6.808,6.808,0,0,0,22.324,29.124Z" transform="translate(20.833 20.833)" fill="#b5b5b5"/>
+      <path id="Tracé_10193" data-name="Tracé 10193" d="M9.262,93.814a3.262,3.262,0,0,1-2.307-5.569L80.745,14.456a3.262,3.262,0,0,1,4.614,0L118.9,48a3.262,3.262,0,1,1-4.614,4.614L83.052,21.376,11.569,92.859A3.252,3.252,0,0,1,9.262,93.814Z" transform="translate(10.416 36.457)" fill="#b5b5b5"/>
+    </g>
+    <text id="Titre_du_bloc" data-name="Titre du bloc" transform="translate(211 152)" fill="#717171" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-33.337" y="0">Titre du bloc</tspan></text>
+    <text id="Sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium_totam_rem." data-name="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem." transform="translate(173 168)" fill="#717171" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="0" y="11">Sed ut perspiciatis unde omnis </tspan><tspan x="0" y="23">iste natus error sit voluptatem </tspan><tspan x="0" y="35">accusantium doloremque </tspan><tspan x="0" y="47">laudantium, totam rem.</tspan></text>
+    <g id="Groupe_7228" data-name="Groupe 7228" transform="translate(-33)">
+      <g id="Rectangle_736" data-name="Rectangle 736" transform="translate(204 243)" fill="#fff" stroke="#707070" stroke-width="0.5">
+        <rect width="70" height="20" rx="5" stroke="none"/>
+        <rect x="0.25" y="0.25" width="69.5" height="19.5" rx="4.75" fill="none"/>
+      </g>
+      <text id="En_savoir_plus" data-name="En savoir plus" transform="translate(239 256)" fill="#717171" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="-24.111" y="0">En savoir plus</tspan></text>
+    </g>
+  </g>
+</svg>

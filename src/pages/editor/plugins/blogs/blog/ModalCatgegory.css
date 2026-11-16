@@ -1,0 +1,475 @@
+#ModalTab .drop-zone {
+  width: 100%;
+  height: 92px;
+  margin-bottom: 15px;
+  background: white;
+  background-position: center;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  color: gray;
+}
+#ModalTab .ck-editor__editable_inline:not(.ck-comment__input *) {
+  height: 200px;
+  overflow-y: auto;
+}
+#ModalTab .grids {
+  font-size: 30px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 7px;
+}
+#ModalTab .nestable-item-name {
+  padding: 0px 17px 0 17px;
+  margin-top: 12px;
+  display: block;
+}
+#ModalTab .biblio_list {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+div#ModalFormulaire ul.nav.nav-tabs .nav-link {
+  color: #bababa;
+}
+div#ModalFormulaire ul.nav.nav-tabs .nav-link.active {
+  width: 100%;
+  color: #000;
+  border-bottom: 1px solid #353535 !important;
+}
+div#ModalFormulaire ul.nav.nav-tabs li {
+  width: 25%;
+}
+.colorPreview {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+span.color-value {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 3px;
+}
+#ModalTab .gallery-item i.fa-trash-alt {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: red;
+  cursor: pointer;
+  background: white;
+  display: none;
+}
+
+#ModalTab .gallery-item i.fa-check-circle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #098201;
+  cursor: pointer;
+  background: white;
+}
+#ModalTab .gallery-item:hover i {
+  display: block;
+}
+#ModalTab input#inputId {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgb(219 219 219);
+  width: 100%;
+  margin: 10px 0px;
+}
+span.tag-wrapper.ReactTags__tag {
+  background: #353535;
+  color: white;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 4px 4px;
+  border-radius: 7px;
+}
+span.tag-wrapper.ReactTags__tag button {
+  background: none;
+  color: white;
+  border: none;
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: absolute;
+}
+div.ReactTags__suggestions ul {
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+div.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+#madalsocial.input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+#madalsocial.form-control {
+  /* border: none; */
+  font-size: 12px;
+  color: #717171;
+}
+
+#madalsocial .input-with-label-pixel {
+  position: relative;
+}
+#madalsocial .Designe {
+  font-size: 20px;
+  font-weight: bold;
+}
+#madalsocial .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+  border: 1px solid #ced4da;
+}
+
+#ModalTab input.form-control.form-control-sm.input-small-pixel {
+  border: 1px solid #ced4da;
+}
+#ModalTab .input-with-label-pixel {
+  position: relative;
+}
+#ModalTab span.pixel-label {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #717171;
+  opacity: 1;
+}
+#ModalTab .scrolly {
+  overflow: scroll;
+  height: 300px;
+}
+#ModalTab div#selecteditem {
+  height: 150px;
+  overflow-y: scroll;
+}
+#ModalTab .firstdiv {
+  margin: 0;
+  background: #fff;
+  padding: 10px;
+}
+#ModalTab .firstdivplus {
+  margin: 0px 0;
+  background: #fff;
+  padding: 10px;
+}
+
+div#selecteditem a.nav-link {
+  color: #2f373a;
+}
+div#selecteditem span.title-popups {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 12px;
+  background: #2f373a;
+  color: #eee;
+}
+div#ModalTab.modal-xs {
+  left: 16%;
+}
+div#ModalTab .btns-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#ModalTab span.noticetext {
+  padding: 15px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+}
+div#selecteditem .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0 5px;
+}
+div#selecteditem .gallery-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ModalTab .btn-group.dropend {
+  font-size: 29px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ModalTab input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+div#ModalTab {
+  min-width: 700px;
+}
+div#ModalTab .structmodals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#ModalTab .structmodals .details.active {
+  width: 60%;
+}
+div#ModalTab .structmodals .details {
+  width: 0%;
+}
+#ModalTab .itemlaction.active {
+  background: #f6c344;
+}
+div#ModalTab .structmodals .itemdrag {
+  width: 100%;
+}
+div#ModalTab .structmodals .itemdrag.active {
+  width: 40%;
+}
+#ModalTab .rangeInput {
+  background: linear-gradient(
+    to right,
+    #707070 0%,
+    #707070 40%,
+    #fff 40%,
+    #fff 100%
+  );
+  border: solid 2px #707070;
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#ModalTab input.rangeInput.me-2 {
+  width: 85px;
+  height: 2px;
+}
+#ModalTab .modal-header {
+  background: #2f373a;
+  padding: 0 13px;
+  border-radius: 7px 7px 0px 0px;
+  border-bottom: 1px solid #eee;
+}
+#ModalTab .nav-link.tt.active,
+#ModalTab .nav-link.tt {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+#ModalTab button.btn-closes {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: #eee;
+}
+#ModalTab div#nav-tab {
+  border: none;
+}
+#ModalTab .nav-link.tt {
+  color: #eee;
+}
+#ModalTab .nav-link.tt.active {
+  color: #f6c344;
+}
+#ModalTab .input-small-pixel {
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 0;
+  width: 70px;
+}
+#ModalTab span.titre {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+#ModalTab .rangeInput::-webkit-slider-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: white;
+  border: 1px solid #707070;
+  cursor: pointer;
+}
+#ModalTab span.titredropdown {
+  display: block;
+  font-size: 15px;
+}
+#ModalTab .list {
+  overflow: scroll;
+  height: 200px;
+}
+#ModalTab li.selecterd {
+  border: 1px solid #f6c344;
+  margin: 0 4px;
+}
+#ModalTab img.img.imgReseau {
+  width: 223px;
+  margin: 0 4px;
+}
+
+#ModalTab .disabled.grids {
+  color: #eee;
+  cursor: not-allowed;
+}
+div#ModalTab {
+  top: 12%;
+}
+div#ModalTab ul.listaide {
+  list-style: none;
+  padding: 0;
+}
+div#ModalTab ul.listaide li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px;
+}
+div#ModalTab span.liss {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #f6c344;
+  text-align: center;
+  border-radius: 50px;
+}
+div#ModalTab span.aide {
+  padding: 15px;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+#ModalTab .btnanimations button.btn.btn-light {
+  margin: 4px 2px;
+  font-size: 12px;
+  box-shadow: 1px 1px 0px 0px #ddd1d1;
+}
+#ModalTab .nav-pills .nav-link {
+  color: #2f373a;
+}
+#ModalTab .modal-body {
+  display: block;
+  text-align: justify;
+  font: normal normal normal 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  padding: 0;
+}
+#ModalTab span.title-popups {
+  background: #2f373a;
+  text-align: center;
+  display: block;
+  padding: 13px;
+  color: #eee;
+  font-size: 16px;
+}
+
+.contentOptions {
+  width: 313px;
+  box-sizing: border-box;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+}
+#ModalTab .itemlaction {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7eaec;
+  padding: 10px;
+  border-radius: 5px;
+}
+#ModalTab .itemlaction button {
+  border: none;
+  color: #000000;
+  background: transparent;
+}
+#ModalTab .additem button {
+  border: none;
+  background: none;
+  padding: 15px;
+}
+
+#ModalTab select.form-select {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0;
+}
+#ModalTab .form-check.form-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#ModalTab .nestable.nestable-mczjvnefgzo {
+  overflow-y: scroll;
+  height: 200px;
+}
+
+#ModalTab button.accordion-button {
+  display: flex;
+  background: #f6c344 !important;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+/************************************/
+#ModalTab img.modelPreview {
+  max-width: 150px;
+  margin: 12px auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px 0px;
+  border: 1px solid gray;
+}
+img.selectedModel {
+  width: 150px;
+  height: auto;
+}

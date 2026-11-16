@@ -1,0 +1,264 @@
+#detailclient .sibebarclient {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    height:92vh;
+    width: 20%;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08), 0 1px 3px 0 rgba(0,0,0,0.12);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+
+}
+#detailclient  .search{
+    position: relative;
+  }
+  #detailclient .nav-link.disebled {
+    color: #c9c9c9;
+}
+  #detailclient div.deleteitem {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background: #f6c344;
+    color: #fff;
+    padding: 6px;
+    font-size: 7px;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#detailclient  .tab-pane {
+    width: 80%;
+  }
+#detailclient .remarque {
+    font-size: 14px;
+}
+#detailclient .formclient b {
+    font-weight: bold;
+}
+#detailclient div#v-pills-tabContent {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 90vh;;
+    overflow: scroll;
+    width: 80%;
+}
+#detailclient .table.table-borderless.tablesite {
+    overflow: scroll;
+    height: 350px;
+    position: absolute;
+ 
+    background: #f0f0f0;
+    box-shadow: 2px 2px 15px gray;
+  }
+#detailclient .iconNom {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #313131;
+    text-transform: uppercase;
+}
+#detailclient  .nomClient.m-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#detailclient .etatclient {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 85px;
+    font-size: 14px;
+    background-color: #f1e8fa;
+    color: #6c259b;
+    border: solid 1px #b186e5;
+}
+#detailclient .etatclient.inactif {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 85px;
+    font-size: 14px;
+    background-color: #f1f1f5;
+    color: #878791;
+    border: solid 1px #92929d;
+}
+#detailclient .create-btn {
+    width: 180px;
+    background: #F6C344 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    font: normal normal normal 13px/16px Montserrat;
+    letter-spacing: 0px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 11px;
+    float: right;
+}
+#detailclient .nav-link {
+    background: transparent;
+    color: #353535;
+    width: 242px;
+    border-bottom: 1px solid #eee;
+    border-radius: 0px;
+    text-align: justify;
+    padding: 17px 10px;
+}
+
+#detailclient .nav-link:focus, #detailclient .nav-link:hover,#detailclient .nav-pills .nav-link.active, #detailclient .nav-pills .show>.nav-link {
+    color: #f6c344;
+}
+#detailclient div#v-pills-tab {
+    text-align: justify;
+ 
+}
+#detailclient .fade:not(.show) {
+    display: none;
+}
+#detailclient .retour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#detailclient .btn-group.dropstart {
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 0;
+}
+#detailclient .btn-group.dropstart button {
+    border: none;
+    background: transparent;
+    transform: rotate(90deg);
+}
+
+#detailclient span.emailclient {
+    font-size: 13px;
+}
+
+#detailclient .titlecontent {
+    text-align: justify;
+    margin: 5% auto;
+}
+#detailclient .detailscontenu {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 4.5px 9px -3.375px rgba(24,39,75,0.04), 0px 3.375px 4.5px -3.375px rgba(24,39,75,0.08);
+    border-radius: 2px;
+}
+#detailclient .actions {
+    margin: 19px auto;
+}
+/* style autorisation */
+#autorisatiocleint .table.table-borderless.tablesite {
+    overflow: scroll;
+    height: 200px;
+    position: absolute;
+}
+#autorisatiocleint .client {
+    /* float: left; */
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#sitesAttr  .apercu{
+    width: 150px;
+    text-align: center;
+    color : gray;
+    display: block;
+    border: 1px solid grey;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+}
+#sitesAttr{
+    padding: 20px;
+    background:white;
+    position: relative;
+}
+#sitesAttr .btndelete {
+    color: #353535;
+    font-size: 14px;
+    background: transparent;
+    padding: 5px;
+    border-radius: 7px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+#sitesAttr .siteInfo a {
+    color: #353535;
+}
+.nav-link {
+    width: auto !important;
+  }
+.attribuerBtn{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    font-size: 14px;;
+    font-weight: bold;
+    color:#F6C344;
+}
+#sitesAttr  .state{
+    padding: 5px 20px;
+    margin: 10px 0px;
+    background:green;
+    color:white;
+    border-radius: 7px;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+}
+#autorisatiocleint .eteSite {
+    display: table;
+    opacity: 1;
+    border-radius: 50px;
+    width: 84px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.tab-pane{
+    overflow: visible!important;
+}
+
+#acces .serash-sites button, #acces .serash-sites button:hover {
+    background: #F6C344;
+    color: #fff;
+    font-family: 'Montserrat';
+    border: 1px solid #F6C344;
+    border-radius: 0px 7px 7px 0px;
+    width: 102px;
+    z-index: 0!important;
+}

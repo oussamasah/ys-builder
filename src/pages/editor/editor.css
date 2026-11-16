@@ -1,0 +1,271 @@
+.EditorComponent {
+  width: 100%;
+}
+.EditorComponent {
+  width: 100%;
+}
+.EditorComponent .gjs-cv-canvas {
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  overflow: scroll;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+.gjs-fonts:before {
+  display: none;
+}
+#commentsoverlay{
+  position: absolute;
+  z-index: 999999999;
+  display: block;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  background-color: #353535;
+}
+.react-joyride__overlay {
+  min-height: auto;
+}
+.TwoUsersAlert {
+  padding: 5px;
+  border-radius: 0px;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.Editor {
+  background: #eeeeee;
+  height: 94.7vh;
+}
+.supcategorytp.Prive {
+  background: green;
+  color: white;
+}
+.EditorComponent #gjs.hide {
+  display: none !important;
+}
+.EditorComponent #gjs.active {
+  display: block !important;
+}
+div#showSidbar.active .sideBar {
+  opacity: 1;
+}
+div#showSidbar .sideBar {
+  opacity: 0;
+}
+.gjs-rte-actionbar {
+  max-width: 1200px !important;
+  flex-wrap: wrap;
+}
+.gjs-rte-action {
+  width: auto !important;
+}
+.gjs-block-label i {
+  font-size: 45px;
+  line-height: 50px;
+}
+.gjs-blocks-cs.gjs-one-bg.gjs-two-color {
+  background-color: #fff;
+  overflow: scroll;
+  max-height: 83.4vh;
+}
+.fade.modalDelete.modal.show {
+  background: rgb(0 0 0 / 60%);
+}
+div#exampleModals {
+  background: rgb(0 0 0 / 60%);
+}
+.gjs-block {
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 30%;
+  min-width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: auto;
+  cursor: all-scroll;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid rgb(203 201 201 / 32%);
+  border-radius: 3px;
+  margin: 5px;
+  box-shadow: none;
+  transition: all 0.2s ease 0s;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  transition-property: box-shadow, color;
+}
+.gjs-block .titreWidget {
+  font: normal normal normal 10px/12px Montserrat !important;
+  letter-spacing: 0px !important;
+  color: #717171 !important;
+  display: block;
+}
+.gjs-block .imgTitreWidget {
+  width: 40px;
+  margin: 0 auto;
+}
+.gjs-category-title,
+.gjs-layer-title,
+.gjs-block-category .gjs-title,
+.gjs-sm-sector-title {
+  font-weight: lighter;
+  background-color: white;
+  letter-spacing: 1px;
+  padding: 9px 10px 9px 20px;
+  border-bottom: none !important;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  color: #353535;
+  letter-spacing: 0px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  font: normal normal normal 12px/12px Montserrat;
+  letter-spacing: 0px;
+}
+.gjs-title:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 8%;
+  width: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  background: #cacaca;
+}
+.gjs-category-open,
+.gjs-block-category.gjs-open,
+.gjs-sm-sector.gjs-sm-open {
+  border-bottom: none !important;
+  margin-bottom: 20px;
+}
+.gjs-four-color-h:hover {
+  color: #353535;
+}
+ul.ck.ck-reset.ck-list {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.gjs-block__media {
+  margin-bottom: 10px;
+  pointer-events: none;
+  width: 55px;
+  color: #717171;
+  margin: 0 auto;
+}
+.gjs-four-color-h:hover {
+  font: normal normal normal 10px/12px Montserrat !important;
+  letter-spacing: 0px !important;
+  color: #717171 !important;
+  color: #717171 !important;
+}
+.gjs-four-color-h {
+  font: normal normal normal 10px/12px Montserrat !important;
+  letter-spacing: 0px !important;
+  color: #717171 !important;
+  color: #717171 !important;
+}
+.gjs-toolbar {
+  background-color: #353535;
+}
+
+.gjs-rte-action {
+  font-size: 14px;
+  border-right: none;
+  padding: 5px;
+  min-width: 35px;
+}
+.CodeMirror {
+  text-align: justify;
+}
+.gjs-pn-panel {
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0px;
+  z-index: 3;
+  top: -53px;
+  right: 194px;
+  background-color: #353535;
+}
+.gjs-rte-toolbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.44);
+  border-radius: 3px;
+  width: auto;
+  max-width: 1200px !important;
+  flex-wrap: wrap;
+  top: 120% !important;
+}
+.gjs-dashed .row[data-gjs-highlightable] {
+  outline: 1px dashed rgb(255 255 255 / 70%);
+  outline-offset: -2px;
+}
+.gjs-dashed .row-cell[data-gjs-highlightable] {
+  outline: 1px dashed rgb(136 136 136 / 70%);
+  outline-offset: -2px;
+}
+.gjs-dashed .container[data-gjs-highlightable] {
+  outline: 1px dashed rgb(255 255 255 / 70%);
+  outline-offset: -2px;
+}
+.gjs-block .annotation {
+  display: inline-flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  position: relative;
+  overflow: hidden;
+}
+.gjs-block .annotation:hover {
+  overflow: visible;
+  cursor: pointer;
+}
+.gjs-block .annotation:hover .annotation-text {
+  opacity: 1;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.gjs-block .annotation-text {
+  background-color: #e74c3c;
+  color: #ffffff;
+  padding: 5px 10px;
+  position: absolute;
+  top: -2.25em;
+  white-space: nowrap;
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.gjs-block .annotation-symbol {
+  color: #e74c3c;
+}
+.sp-input {
+  z-index: 99;
+  position: relative;
+  color: #fff;
+}
+.supcategorytp {
+  background: #f6c344;
+  padding: 7px;
+  border-radius: 0px 13px 0px 2px;
+  float: right;
+  margin: auto !important;
+}

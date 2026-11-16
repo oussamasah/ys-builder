@@ -1,0 +1,115 @@
+#borderImg .btntype {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#borderImg .blockTitle{
+    font: normal normal normal 12px/15px Montserrat;
+    color: white;
+}
+#borderImg .typeBorder input{
+    display:none
+    }
+    #borderImg .RadioInput[type="radio"]+label {
+    cursor: pointer;;
+    border-radius: 5px;
+
+    }
+    #borderImg .RadioInput[type="radio"]:checked+label {
+        box-shadow: none;
+        background: #B5B5B5;
+        color:white
+    }
+    #borderImg .form-switch .form-check-input {
+        width: 2em;
+        margin-left: -2.5em;
+        background-image: url("../../../../assets/imgBorder/switchform.svg")!important;
+        background-position: left center;
+        border-radius: 2em;
+        transition: background-position .15s ease-in-out;
+    }
+    #borderImg .form-check-input {
+        width: 1em;
+        height: 1em;
+        margin-top: 0.25em;
+        vertical-align: top;
+        background-color: #717171;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        appearance: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        cursor: pointer;
+        border: 1px solid #707070!important;
+    }
+    #borderImg .form-check-input:checked {
+        background-color: #90E192;
+        border-color: #90E192;
+    }
+    .form-check-input:focus {
+        border:none;
+        outline: 0;
+        box-shadow: none;
+    }
+    #borderImg .borderSelect{
+        border-radius: 8px;
+        
+            width: 145px;
+        
+    }
+    #borderImg  label.active {
+        box-shadow: none;
+        background: #B5B5B5;
+        color: white;
+    }
+    #borderImg   .blockTitle ,#borderImg .btntype i{
+        color: white;
+    }
+    #borderImg .rangeInput {
+        background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+        border: solid 2px #707070;
+        border-radius: 8px;
+        height: 7px;
+        width: 400px;
+        outline: none;
+        transition: background 450ms ease-in;
+        -webkit-appearance: none;
+    }
+    #borderImg  input.rangeInput.me-2 {
+        width: 85px;
+        height: 2px;
+    }
+    #borderImg   .input-small-pixel {
+        border-radius: 10px;
+        text-align: center;
+        padding-left: 0;
+        width: 70px;
+    }
+    #borderImg   span.pixel-label {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        font-weight: 400;
+        font-size: 12px;
+        color: rgb(0 0 0 / 57%);
+    }
+    #borderImg  .input-with-label-pixel {
+        position: relative;
+    }
+    #borderImg  .rangeInput::-webkit-slider-thumb {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        cursor: ew-resize;
+        background: white;
+        border:1px solid #707070
+      }

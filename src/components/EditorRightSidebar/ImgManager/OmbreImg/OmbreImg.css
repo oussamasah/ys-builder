@@ -1,0 +1,123 @@
+
+#OmbreImg .typeOmbre input{
+display:none
+}
+#OmbreImg .typeOmbre{
+    position: relative;
+    
+}
+#OmbreImg .btntype {
+position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+
+}
+#OmbreImg .btntype.insettype:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    box-shadow: inset 0px 0px 5px grey;
+    border-radius: 5px;
+}
+#OmbreImg .titleSize {
+    font: normal normal normal 12px/15px Montserrat;
+    color: white;
+}
+#OmbreImg label.form-check-label {
+    font: normal normal normal 12px/15px Montserrat;
+    color: white;
+}
+#OmbreImg label {
+    display: inline-block;
+    color: white;
+}
+#OmbreImg .btntype.outsettype:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    box-shadow:  0px 0px 5px grey;
+    border-radius: 5px;
+}
+#OmbreImg .RadioInput[type="radio"]+label {
+    cursor: pointer;;
+    
+    border-radius: 5px;
+
+    }
+    #OmbreImg  .RadioInput[type="radio"]:checked+label {
+        box-shadow: none;
+        background: #B5B5B5;
+    }
+    #OmbreImg .input-with-label-pixel {
+    position: relative;
+ 
+}
+#OmbreImg .input-small-pixel {
+    border-radius:10px;
+    text-align: center;
+
+ }
+ #OmbreImg span.pixel-label {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(0 0 0 / 57%);
+}
+#OmbreImg .form-check-input:checked {
+    background-color: #90E192;
+    border-color: #90E192;
+}
+#OmbreImg .form-switch .form-check-input {
+    background-image: url("../../../../assets/imgBorder/switchform.svg")!important;
+
+}
+#OmbreImg input.rangeInput.me-2 {
+    width: 85px;
+    height: 2px;
+}
+#OmbreImg .input-small-pixel {
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 0;
+    width: 70px;
+}
+#OmbreImg .rangeInput{
+    background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+    border: solid 2px #707070;
+    border-radius: 8px;
+    height: 7px;
+    width: 400px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+  #OmbreImg .rangeInput::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: white;
+    border:1px solid #707070
+  }
+  #OmbreImg .sketch-cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.preview-block {
+    height: 150px;
+  
+}

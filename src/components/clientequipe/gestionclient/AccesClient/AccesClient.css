@@ -1,0 +1,9 @@
+#acces .serash-sites button, #acces .serash-sites button:hover {
+    background: #F6C344;
+    color: #fff;
+    font-family: 'Montserrat';
+    border: 1px solid #F6C344;
+    border-radius: 0px 7px 7px 0px;
+    width: 102px;
+    z-index: 0!important;
+}

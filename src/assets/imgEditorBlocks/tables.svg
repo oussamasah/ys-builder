@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="44" viewBox="0 0 58 44">
+  <g id="Groupe_7146" data-name="Groupe 7146" transform="translate(-134 -168)">
+    <g id="Rectangle_681" data-name="Rectangle 681" transform="translate(134 168)" fill="none" stroke="#707070" stroke-width="2">
+      <rect width="58" height="44" rx="4" stroke="none"/>
+      <rect x="1" y="1" width="56" height="42" rx="3" fill="none"/>
+    </g>
+    <path id="Union_8" data-name="Union 8" d="M-4204-5650v-9.761h-18.807v-13.6H-4204V-5682h-19v-7a4,4,0,0,1,4-4h50a4,4,0,0,1,4,4v7h-18v8.64h18v13.6h-18V-5650Zm2-2h17v-7.763h-17Zm19-9.763h16v-9.6h-16Zm-19,0h17v-9.6h-17Zm-18.807,0H-4204v-9.6h-16.807Zm18.807-11.6h17V-5682h-17Z" transform="translate(4357 5862)" fill="#717171"/>
+  </g>
+</svg>

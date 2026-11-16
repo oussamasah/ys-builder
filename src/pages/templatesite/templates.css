@@ -1,0 +1,469 @@
+.tempList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 130px;
+  margin-left: 85px;
+}
+
+.item {
+  width: 300px;
+  height: 435px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px 30px 30px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#modalcreateT .btns-action button.btn-closes {
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+#modalcreateT .modal-header {
+  background: #353535;
+  padding: 13px;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+}
+#modalcreateT .modal-body {
+  padding: 25px;
+}
+#modalcreateT .modal-content {
+  border-radius: 7px;
+}
+.tempList .item.blank:first-child {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 4px #00000029 !important;
+  border-radius: 5px;
+  opacity: 1;
+}
+.blank {
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+
+.item:hover {
+  box-shadow: none;
+}
+.templateContent h1 {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.templatePane {
+  overflow-y: hidden;
+}
+
+.frame_wrap {
+  overflow: hidden;
+  border: 0;
+
+  transform-origin: 0 0;
+}
+.show-action button {
+  width: 190px;
+  display: block;
+  margin: 10px;
+  border-radius: 25px;
+  height: 52px;
+}
+.show-action {
+  display: none;
+}
+.item.blank .show-action {
+  -webkit-transition: background-color 2s ease-in, opacity 2s ease-in;
+  transition: background-color 2s ease-in, opacity 2s ease-in;
+}
+.item.blank:hover .show-action {
+  display: inherit;
+  position: absolute;
+  background: #33333333 0% 0% no-repeat padding-box;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 1;
+  height: 400px;
+  align-items: center;
+  top: 0%;
+  justify-content: center;
+  width: 300px;
+  transition: background-color 2s ease-in, opacity 2s ease-in;
+}
+.item .capturetemplate {
+  display: block;
+  width: 100%;
+  height: 396px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.optiontemp {
+  position: absolute;
+  top: 92%;
+  width: 100%;
+  display: block;
+  background-size: auto;
+  min-height: 100%;
+  background: url(../../assets/imgTemplate/backgrounBtn.svg) no-repeat;
+}
+
+.optiontemp button.btns.img-left.dropdown-toggle {
+  float: left;
+  margin: 4px;
+  background: transparent;
+  border: none;
+}
+
+button.btns.img-right {
+  float: right;
+  margin: 4px;
+  background: transparent;
+  border: none;
+}
+.show-action .btns {
+  background: #f6c344 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 0px #00000029;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 170px;
+  height: 36px;
+  padding: 6px;
+  text-align: center;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+button.btns.img-left.dropdown-toggle:after {
+  background: url(../../assets/imgTemplate/BtnTemplate.svg) no-repeat !important;
+  display: block;
+  background-size: auto;
+  height: 250px;
+  border: none;
+  width: 200px;
+  position: absolute;
+  top: 11px;
+}
+.optiontemp div.dropdown-menu.show {
+  margin: 5px !important;
+  font-size: 14px;
+  inset: auto auto 0px 0px !important;
+  width: 151px !important;
+  transform: translate(-4.55556px, 4.22222px) !important;
+  height: 399px;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 1;
+}
+.optiontemp button.btns.commencer {
+  background: #f6c344 0% 0% no-repeat padding-box;
+
+  border-radius: 5px;
+  font: normal normal 600 10px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 90px;
+  height: 20px;
+  text-align: center;
+  margin: 90px 41px 0px 41px;
+  display: block;
+  border: 0.3px solid #707070;
+}
+.Activitees div.title-ac-1 {
+  font: normal normal normal 11px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #ba0e67;
+  opacity: 1;
+  display: flex;
+  text-align: left;
+  margin: 0 auto;
+  padding: 5px;
+}
+.Agence span.title-ac-1 {
+  font: normal normal normal 11px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #0e42ba;
+  opacity: 1;
+  display: block;
+  text-align: justify;
+  margin: 0 6%;
+}
+.Activitees .title-ac,
+.Agence .title-ac {
+  font: normal normal normal 12px/16px Montserrat;
+  letter-spacing: 0.4px;
+  color: #b5b5b5;
+  opacity: 1;
+  display: block;
+  text-align: justify;
+  margin: 15px 6% 6px 6%;
+}
+.utilisation .title-ac {
+  font: normal normal normal 12px/16px Montserrat;
+  letter-spacing: 0.4px;
+  color: #b5b5b5;
+  opacity: 1;
+  display: block;
+  text-align: justify;
+  margin: 13px 6% 0px 6%;
+}
+.utilisation span.title-ac-1 {
+  font: normal normal normal 12px/12px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  opacity: 1;
+  display: block;
+  text-align: justify;
+  margin: 1px 6%;
+}
+.Activitees span.title-ac-1 img,
+.Agence span.title-ac-1 img {
+  margin-right: 5px;
+}
+
+div#ModalAddTmplate .progress {
+  --bs-progress-bar-bg: #f6c344;
+}
+button.btn.btn-primary.addTemplate {
+  background: #f6c344 0% 0% no-repeat padding-box;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #fff;
+  border-color: #f6c344;
+}
+
+#ModalAddTmplate [type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+#ModalAddTmplate [type="file"] + label {
+  background: #353535;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+  margin: 0 auto;
+  display: table;
+}
+#ModalAddTmplate [type="file"] + label:hover {
+  background-color: #d3460d;
+}
+
+#ModalAddTmplate [type="file"] + label.btn-2 {
+  background-color: #f6c344 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  overflow: hidden;
+}
+#ModalAddTmplate [type="file"] + label.btn-2::before {
+  color: #fff;
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 100%;
+  height: 100%;
+  right: 130%;
+  line-height: 3.3;
+  position: absolute;
+  top: 0px;
+  transition: all 0.3s;
+}
+#ModalAddTmplate [type="file"] + label.btn-2:hover {
+  background-color: #f6c344;
+}
+#ModalAddTmplate [type="file"] + label.btn-2:hover::before {
+  right: 75%;
+}
+
+#ModalAddTmplate .files {
+  background: #fff;
+  background-position: 50%;
+  border: 2px dashed #717171;
+  border-radius: 15px;
+  color: gray;
+  justify-content: center;
+  opacity: 1;
+  width: 100%;
+  min-height: 173px;
+  padding: 15px;
+}
+span.Activites {
+  font-size: 12px;
+  color: #8d8989;
+  margin: 0%;
+  padding: 0px 0px 0px 9px;
+  display: block;
+}
+.add-new-field.add {
+  background: #f6c344;
+  padding: 15px;
+  display: block;
+
+  margin: 0 auto;
+  border-radius: 11px;
+  color: #fff;
+  cursor: pointer;
+}
+.add-new-field i {
+  background: #f6c344;
+  color: #fff;
+  border-radius: 50px;
+  padding: 4px;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.ingroupSocail {
+  overflow: scroll;
+  height: 364px;
+}
+
+.ingroupSocail.champs.add-new-field.add {
+  background: #f6c344;
+  padding: 15px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 11px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ingroupSocail.champs a.btn.btn-primary {
+  border: 1px solid #353535;
+  font: normal normal 300 17px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  background-color: #353535;
+}
+.add-new-field i.disabled {
+  background: rgb(246 195 68 / 48%);
+}
+
+#ModalAddSection select.form-select {
+  border-bottom: 1px solid #ced4da;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+
+.templatePane .tmpSidebar {
+  padding: 18px 0px 0px 17px;
+  margin: 70px auto;
+}
+
+.templatePane .titreSidebar span {
+  font: normal normal bold 22px/27px Montserrat;
+  letter-spacing: 0px;
+  color: #353535;
+  text-transform: uppercase;
+  opacity: 1;
+  padding: 0px 0px 0px 11px;
+  border-left: 5px solid #f6c344;
+  margin-left: 0;
+}
+.templatePane .Modelssites {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 4px #00000029;
+  opacity: 1;
+  padding: 27px 27px 0px 0px;
+  border-radius: 20px;
+  margin: 5% auto;
+  /* height: 463px; */
+}
+.templatePane .actiSidebar ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.templatePane .actiSidebar ul li span {
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #353535;
+  margin-bottom: 0;
+}
+.templatePane .Models ul {
+  text-align: justify;
+  list-style: none;
+}
+.templatePane .Models ul li span {
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #353535;
+  opacity: 1;
+  cursor: pointer;
+}
+.templatePane .actiSidebar {
+  padding: 0 32px;
+  margin: 13% auto 6% auto;
+}
+.templatePane .borders {
+  border: 1px dashed #eee;
+  text-align: center;
+  margin: 30px 11px 0px 32px;
+  display: block;
+}
+.templatePane .actiSidebar span {
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0.4px;
+  opacity: 1;
+  text-align: justify;
+  display: block;
+}
+.templatePane .templatePane .actiSidebar ul li.voirPlus span {
+  text-align: left;
+  font: normal normal normal 14px/22px Montserrat;
+  letter-spacing: 0.47px;
+  color: #f6c344;
+  padding: 0 14px;
+  cursor: pointer;
+}
+.templatePane .ListColeur span {
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin: 0 6px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+}
+.templatePane .ListColeur span.ListColeur-1 {
+  border: 1px solid #707070;
+  width: 18px;
+  height: 18px;
+  margin: -2px 0px 0px -2px;
+  display: block;
+}
+.templatePane .ListColeur {
+  text-align: justify;
+  margin: 0px 0px 0px 28px;
+}
+.pointer {
+  cursor: pointer;
+}
+.color.active {
+  border: 5px solid #707070 !important;
+}

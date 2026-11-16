@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="38" viewBox="0 0 34 38">
+  <defs>
+    <filter id="Polygone_7" x="0" y="0" width="34" height="38" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_7278" data-name="Groupe 7278" transform="translate(9956 2749)">
+    <g transform="matrix(1, 0, 0, 1, -9956, -2749)" filter="url(#Polygone_7)">
+      <path id="Polygone_7-2" data-name="Polygone 7" d="M12.139,1.457a1,1,0,0,1,1.722,0L25.108,20.491A1,1,0,0,1,24.248,22H1.752a1,1,0,0,1-.861-1.509Z" transform="translate(6 32) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

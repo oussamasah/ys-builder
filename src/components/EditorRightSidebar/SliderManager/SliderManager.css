@@ -1,0 +1,32 @@
+.slideSelector i {
+    background: #5d5d5d;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+#SlideTabs{
+    display: flex;
+    justify-content: space-between;
+}
+#SlideTabs button {
+    background: none;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#SlideTabs button.active {
+    background: none;
+    color: #f6c344;
+    border: none;
+    border-bottom: 1px solid;
+}
+.configslideinput{
+    max-width: 70px;
+}

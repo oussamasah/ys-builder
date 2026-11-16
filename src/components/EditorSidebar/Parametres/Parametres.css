@@ -1,0 +1,110 @@
+.Folder, .Setting {
+    margin: 11px 20px;
+}
+
+.Folder div,.Setting div {
+    margin-top: 5px;
+}
+.SidebarParametre div button {
+    margin: 19px 0px 0px 0px;
+    padding: 1px 0px;
+    min-width: max-content;
+}
+.Folder .borderFolder {
+    background: url("../../../assets/imgParametres/IconFolder.png")no-repeat;
+    width: 24px;
+    height: 22px;
+    display: table;
+}
+.Folder .borderFolder:before {
+    content: '';
+    border-bottom: 0.5px dashed #B5B5B5;
+    opacity: 1;
+    width: 186px;
+    height: 12px;
+    display: block;
+    position: relative;
+    z-index: 0;
+    left: 28px;
+}
+.Setting .borderSetting {
+    background: url("../../../assets/imgParametres/Iconsettings.png")no-repeat;
+    width: 24px;
+    height: 22px;
+    display: table;
+}
+.Setting .borderSetting:before {
+    content: '';
+    border-bottom: 0.5px dashed #B5B5B5;
+    opacity: 1;
+    width: 186px;
+    height: 12px;
+    display: block;
+    position: relative;
+    z-index: 0;
+    left: 28px;
+}
+.SidebarParametre div.tab-pane{
+    width: 541px;
+    height: 94vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+    left: 281px;
+    bottom: 4px;
+    z-index: 9;
+}
+.SidebarParametre {
+    overflow: scroll;
+    height: 80.4vh;
+}
+.SidebarWidgets .SidebarParametre .nav-pills .nav-link.active span {
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #F6C344;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.SidebarWidgets .SidebarParametre .nav-pills .nav-link span {
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #717171;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: justify;
+    margin-left: 12px;
+}
+div#SubParametre.tabContent.active {
+    display: block;
+}
+div#SubParametre.tabContent {
+    display: none;
+}
+
+sup.encours {
+    background: #353535;
+    color: #fff;
+    padding: 4px;
+    border-radius: 11px;
+    font-size: 7px;
+    top: -1.5em;
+    animation: flash 3s cubic-bezier(0.47, 0, 0, 0.63) infinite
+}
+@keyframes flash {
+    0%,50%,100%{
+      opacity: 0;
+    }
+  
+    35%{
+      opacity: 1;
+      background:#f6c344 ;
+    }
+    
+    65%{
+      opacity: 1;
+      background:#353535;
+    }
+    
+  }
+  

@@ -1,0 +1,79 @@
+#autorisatiocleint .table.table-borderless.tablesite {
+    overflow: scroll;
+    height: 200px;
+    position: absolute;
+}
+#autorisatiocleint .client {
+    /* float: left; */
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#sitesAttr  .apercu{
+    width: 150px;
+    text-align: center;
+    color : gray;
+    display: block;
+    border: 1px solid grey;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+}
+#sitesAttr{
+    padding: 20px;
+    background:white;
+    position: relative;
+}
+#sitesAttr .btndelete {
+    color: #353535;
+    font-size: 14px;
+    background: transparent;
+    padding: 5px;
+    border-radius: 7px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+#sitesAttr .siteInfo a {
+    color: #353535;
+}
+.nav-link {
+    width: auto !important;
+  }
+.attribuerBtn{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    font-size: 14px;;
+    font-weight: bold;
+    color:#F6C344;
+}
+#sitesAttr  .state{
+    padding: 5px 20px;
+    margin: 10px 0px;
+    background:green;
+    color:white;
+    border-radius: 7px;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+}
+#autorisatiocleint .eteSite {
+    display: table;
+    opacity: 1;
+    border-radius: 50px;
+    width: 84px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.tab-pane{
+    overflow: visible!important;
+}

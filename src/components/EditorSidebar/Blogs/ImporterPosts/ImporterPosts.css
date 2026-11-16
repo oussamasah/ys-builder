@@ -1,0 +1,10 @@
+#importerPosts .notice span {
+    text-align: justify;
+    display: block;
+    font-size: 13px;
+    margin: 0 28px 0 0px;
+}
+
+div#importerPosts h1 {
+    font-size: 20px;
+}

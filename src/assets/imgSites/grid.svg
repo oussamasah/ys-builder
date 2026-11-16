@@ -1,0 +1,11 @@
+<svg id="grid" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path id="Tracé_9667" data-name="Tracé 9667" d="M4.027,17.5H0v2.169a1.859,1.859,0,0,0,1.859,1.859H4.027Z" transform="translate(0 -5.527)" fill="#cbc9c9"/>
+  <path id="Tracé_9668" data-name="Tracé 9668" d="M21.527,17.5H17.5v4.027h2.169a1.859,1.859,0,0,0,1.859-1.859Z" transform="translate(-5.527 -5.527)" fill="#cbc9c9"/>
+  <path id="Tracé_9669" data-name="Tracé 9669" d="M4.027,8.75H0v4.027H4.027Z" transform="translate(0 -2.764)" fill="#cbc9c9"/>
+  <path id="Tracé_9670" data-name="Tracé 9670" d="M21.527,8.75H17.5v4.027h4.027Z" transform="translate(-5.527 -2.764)" fill="#cbc9c9"/>
+  <path id="Tracé_9671" data-name="Tracé 9671" d="M4.027,0H1.859A1.859,1.859,0,0,0,0,1.859V4.027H4.027Z" fill="#cbc9c9"/>
+  <path id="Tracé_9672" data-name="Tracé 9672" d="M12.777,17.5H8.75v4.027h4.027Z" transform="translate(-2.764 -5.527)" fill="#cbc9c9"/>
+  <path id="Tracé_9673" data-name="Tracé 9673" d="M12.777,8.75H8.75v4.027h4.027Z" transform="translate(-2.764 -2.764)" fill="#cbc9c9"/>
+  <path id="Tracé_9674" data-name="Tracé 9674" d="M12.777,0H8.75V4.027h4.027Z" transform="translate(-2.764)" fill="#cbc9c9"/>
+  <path id="Tracé_9675" data-name="Tracé 9675" d="M19.669,0H17.5V4.027h4.027V1.859A1.859,1.859,0,0,0,19.669,0Z" transform="translate(-5.527)" fill="#cbc9c9"/>
+</svg>

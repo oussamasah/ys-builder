@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.001" height="52" viewBox="0 0 64.001 52">
+  <g id="Groupe_7278" data-name="Groupe 7278" transform="translate(-131 -165)">
+    <path id="Rectangle_687" data-name="Rectangle 687" d="M5,0H60a4,4,0,0,1,4,4V48a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V5A5,5,0,0,1,5,0Z" transform="translate(131 165)" fill="#fff"/>
+    <path id="Soustraction_7" data-name="Soustraction 7" d="M39,14H20.475V0H34a5.006,5.006,0,0,1,5,5v9ZM19.5,14H0V0H19.5V14Z" transform="translate(155 166)" fill="#717171"/>
+    <path id="Soustraction_5" data-name="Soustraction 5" d="M-4043-5752h-56a4,4,0,0,1-4-4v-43a5.007,5.007,0,0,1,5-5h17v2h-17a3,3,0,0,0-3,3v43a2,2,0,0,0,2,2h56a2,2,0,0,0,2-2v-31h2v31A4,4,0,0,1-4043-5752Z" transform="translate(4234 5969)" fill="#717171"/>
+    <path id="Ligne_33" data-name="Ligne 33" d="M42.5,1H-1V-1H42.5Z" transform="translate(152.5 182.5)" fill="#707070"/>
+    <path id="Ligne_34" data-name="Ligne 34" d="M1,17.5H-1V-1H1Z" transform="translate(152.5 166)" fill="#707070"/>
+  </g>
+</svg>

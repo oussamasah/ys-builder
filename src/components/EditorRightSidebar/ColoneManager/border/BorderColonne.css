@@ -1,0 +1,118 @@
+#BorderColone .btntype {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+#BorderColone .blockTitle{
+    font: normal normal normal 12px/15px Montserrat;
+}
+#BorderColone .typeBorder input{
+    display:none
+    }
+    #BorderColone .RadioInput[type="radio"]+label {
+    cursor: pointer;;
+    border-radius: 5px;
+
+    }
+    #BorderColone .RadioInput[type="radio"]:checked+label {
+        box-shadow: none;
+        background: #B5B5B5;
+        color:white
+    }
+    #BorderColone    .form-switch .form-check-input {
+        width: 2em;
+        margin-left: -2.5em;
+        background-image: url("../../../../assets/imgBorder/switchform.svg")!important;
+        background-position: left center;
+        border-radius: 2em;
+        transition: background-position .15s ease-in-out;
+    }
+    #BorderColone  .form-check-input {
+        width: 1em;
+        height: 1em;
+        margin-top: 0.25em;
+        vertical-align: top;
+        background-color: #717171;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        appearance: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        cursor: pointer;
+        border: 1px solid #707070!important;
+    }
+    #BorderColone  .form-check-input:checked {
+        background-color: #90E192;
+        border-color: #90E192;
+    }
+    #BorderColone  .form-check-input:focus {
+        border:none;
+        outline: 0;
+        box-shadow: none;
+    }
+    #BorderColone .borderSelect{
+        border-radius: 8px;
+        
+            width: 145px;
+        
+    }
+    #BorderColone   label.active {
+        box-shadow: none;
+        background: #B5B5B5;
+        color: white;
+    }
+        #BorderColone  label.active {
+        box-shadow: none;
+        background: #B5B5B5;
+        color: white;
+    }
+         #BorderColone   .input-small-pixel {
+        border-radius: 10px;
+        text-align: center;
+        padding-left: 0;
+        width: 70px;
+    }
+         #BorderColone   span.pixel-label {
+        position: absolute;
+        top: 4px;
+        right: 20px;
+        font-weight: 400;
+        color:rgb(195, 195, 195)
+    }
+         #BorderColone  .input-with-label-pixel {
+        position: relative;
+    }
+         #BorderColone  .rangeInput::-webkit-slider-thumb {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        cursor: ew-resize;
+        background: white;
+        border:1px solid #707070
+      }
+           #BorderColone  label.active {
+        box-shadow: none;
+        background: #B5B5B5;
+        color: white;
+    }
+         #BorderColone .rangeInput {
+        background: linear-gradient(to right, #707070 0%, #707070 40%, #fff 40%, #fff 100%);
+        border: solid 2px #707070;
+        border-radius: 8px;
+        height: 7px;
+        width: 400px;
+        outline: none;
+        transition: background 450ms ease-in;
+        -webkit-appearance: none;
+    }
+         #BorderColone  input.rangeInput.me-2 {
+        width: 85px;
+        height: 2px;
+    }

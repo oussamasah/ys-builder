@@ -1,0 +1,117 @@
+#btnManagertext .previewTitle{
+    text-align: left;
+font: italic normal 400 12px/13px Montserrat;
+letter-spacing: 0px;
+
+color: #717171;
+
+}
+
+
+#btnManagertext .panelTitle {
+    color: #fff ;
+    font: normal normal normal 12px/15px Montserrat;
+}
+#btnManagertext .colorPreview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+#btnManagertext .FontSelect {
+    width: 200px;
+}
+#btnManagertext .input-small-pixel {
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    padding-left: 0;
+}
+#btnManagertext .input-with-label-pixel {
+    position: relative;
+ 
+}
+#btnManagertext .form-control,.form-control {
+    /* border: none; */
+    font-size: 12px;
+    color: #717171;
+}
+.css-1sv74um-control{
+    min-height: 28px;
+}
+#btnManagertext span.pixel-label {
+    position: absolute;
+    top: 6px;
+    right: 38px;
+    font-weight: 400;
+    color: rgb(0 0 0 / 57%);
+    font-size: 12px;
+}
+
+#btnManagertext .RadioInput[type="checkbox"]:checked+label {
+    background-color: #b5b5b5;
+    color: white;
+}
+
+#btnManagertext  .RadioLabel {
+    text-align: center;
+    padding: 2px 7px;
+    margin-left: 2px;
+    font-weight: 600;
+    border: 1px solid #c6c6c6;
+    color: #7d7d7d;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btnManagertext  .RadioInput {
+    display: none;
+}
+#btnManagertext .RadioInput {
+    background-color: gray;
+    color: white;
+}
+#btnManagertext .RadioInput:checked+label {
+    background-color: #b5b5b5;
+    color: white;
+}
+#btnManagertext  span.color-value {
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 3px;
+    border-radius: 3px;
+}
+#btnManagertext .css-1dodird-control:hover {
+    border-color: #717171;
+} 
+#btnManagertext .css-ckqi3r-control:hover {
+    border-color: hsl(0, 0%, 70%);
+}
+#btnManagertext .sketch-popeover {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+#btnManagertext  .sketch-cover{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: rgb(0 0 0 / 57%);
+    font-size: 12px;
+}
+.css-tj5bde-Svg{
+    color: rgb(0 0 0 / 57%);
+    width: 18px;
+}
+.form-select{
+    font-size: 12px;
+    color: rgb(0 0 0 / 57%);
+}

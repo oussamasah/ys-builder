@@ -1,0 +1,161 @@
+
+#GererPosts button.btnblogs {
+    background: #f6c344 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    border: none;
+    padding: 9px;
+    font: normal normal normal 12px/12px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    width: 120px;
+  }
+  
+#addPost  .actionThumb{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+#addPost  .actionThumb i{
+cursor: pointer;
+color:white;
+background-color: gray;
+padding: 5px;
+border-radius: 5px;
+
+
+}  
+#addPost  .drop-zone  i{
+    position:absolute;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+padding: 5px;
+border-radius: 5px;
+    font-size: 20px;
+}
+#addPost .drop-zone   i{
+cursor: pointer;
+color:white;
+background-color: gray;
+}
+.thumbeditor{
+    position: relative;
+}
+#addPost  .drop-zone {
+
+    width: 100%;
+    height: 300px;
+/* background: #353535  url("../../../../assets/MediaLibrary/UploadFile.svg") no-repeat; */
+    background-position: center;
+    background-size: 45px;
+    border: 2px dashed #717171;
+    border-radius: 15px;
+    opacity: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#GererPosts .client img {
+    display: inline-block;
+    object-fit: cover;
+    object-position: 0% 0%;
+    height: 121px;
+    box-shadow: 0px 0px 5px 0px #eee;
+}
+#GererPosts span.titleblog {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 279px;
+    display: block;
+    font-weight: bold;
+}
+#GererPosts label.mb-2.titlecontent {
+    font-size: 12px;
+    padding: 0px 0px 0px 10px;
+}
+#GererPosts table tbody {
+    max-height: 77.4vh;
+    overflow-y: auto;
+    display: block;
+}
+#GererPosts span.slogblog {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 367px;
+    display: block;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #818181;
+}
+div#GererPosts tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+#GererPosts .btnactions button {
+    border: none;
+    background: transparent;
+    color: #cbc9c9;
+}#GererPosts .btnactions button i {
+ 
+    font-size: 14px;
+}#GererPosts .btnactions button img {
+    width: 15px;
+}
+.statuspublier {
+    color: #616c79;
+    border: 1px solid #616c79;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 5px;
+}
+.etatstatusp {
+    color: #0e9e67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.etatstatus {
+    color: #616c79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.statusrepublier {
+    color: #fff;
+    border: 1px solid #f6c344;
+    background: #f6c344;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 5px;
+}
+div#GererPosts h1 {
+    font-size: 20px;
+}
+div#GererPosts .input-group.serash-document {
+    width: 50%;
+    border-radius: 15px;
+    color: white;
+    margin: 0;
+    
+}
+div#GererPosts  .input-group.serash-document input.form-control {
+    border-radius: 6px!important
+}
+div#GererPosts table.tables {
+    width: 100%;
+}

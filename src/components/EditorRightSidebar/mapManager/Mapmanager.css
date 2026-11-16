@@ -1,0 +1,12 @@
+.marker-options{
+    position: relative;
+}
+.marker-options:before{
+   content: "";
+   position: absolute;
+   top: 12px;
+   right: 0px;
+   width: 80%;
+   height: 1px;
+   background:grey;
+}
